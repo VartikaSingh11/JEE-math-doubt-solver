@@ -1,0 +1,897 @@
+{
+  "k": 3,
+  "min_score": null,
+  "n_total": 45,
+  "n_failed": 20,
+  "n_answerable": 24,
+  "n_unanswerable": 1,
+  "retrieval_hit_rate_top3": 0.5833333333333334,
+  "avg_faithfulness": 0.8194444444444445,
+  "refusal_accuracy": 1.0,
+  "results": [
+    {
+      "id": 1,
+      "question": "For a quadratic equation ax^2 + bx + c = 0, what are the sum and product of its roots?",
+      "answerable": true,
+      "hit_top3": true,
+      "faithfulness": 1.0,
+      "refused": false,
+      "answer": "For a quadratic equation ax^2 + bx + c = 0, the sum of its roots (α and β) is -b/a and the product of its roots is c/a (Source: Quadratic_Equations, Page 2). \n\nAlternatively, using Vieta's theorem, the sum of the roots is -b/2a and the product of the roots is c/a, but since the equation is given as ax^2 + bx + c = 0, we consider the standard form where the sum is -b/a (Source: Quadratic_Equations, Page 1 and Page 2). \n\nHowever, the most direct reference is: a + β = -b/a and αβ = c/a (Source: Quadratic_Equations, Page 2).",
+      "retrieved": [
+        [
+          "Quadratic_Equations",
+          2,
+          0.658
+        ],
+        [
+          "Quadratic_Equations",
+          1,
+          0.56
+        ],
+        [
+          "Quadratic_Equations",
+          1,
+          0.53
+        ]
+      ]
+    },
+    {
+      "id": 2,
+      "question": "Why do irrational roots of a quadratic equation with rational coefficients always occur in conjugate pairs?",
+      "answerable": true,
+      "hit_top3": true,
+      "faithfulness": 1.0,
+      "refused": false,
+      "answer": "Irrational roots of a quadratic equation with rational coefficients always occur in conjugate pairs because if one of the roots is m + √n, then the other root will be m - √n (Source: Quadratic_Equations, Page 2).",
+      "retrieved": [
+        [
+          "Quadratic_Equations",
+          2,
+          0.633
+        ],
+        [
+          "Quadratic_Equations",
+          1,
+          0.604
+        ],
+        [
+          "Quadratic_Equations",
+          12,
+          0.422
+        ]
+      ]
+    },
+    {
+      "id": 3,
+      "question": "What are the three basic trigonometric identities relating sin, cos, tan, cot, sec, and cosec?",
+      "answerable": true,
+      "hit_top3": true,
+      "faithfulness": 0.6666666666666666,
+      "refused": false,
+      "answer": "The three basic trigonometric identities are: \n(1) sin²θ + cos²θ = 1 \n(2) tan²θ + 1 = sec²θ \n(3) Not explicitly stated as a third basic identity in the provided context, but other identities are given, such as those involving cosec and cot.\n\n(Source: Trigonometric_Ratios_and_Identities, Page 3)",
+      "retrieved": [
+        [
+          "Trigonometric_Ratios_and_Identities",
+          3,
+          0.617
+        ],
+        [
+          "Trigonometric_Ratios_and_Identities",
+          19,
+          0.617
+        ],
+        [
+          "Trigonometric_Ratios_and_Identities",
+          4,
+          0.61
+        ]
+      ]
+    },
+    {
+      "id": 4,
+      "question": "If D is the discriminant of a quadratic equation, what does D > 0, D = 0, and D < 0 tell us about the nature of its roots?",
+      "answerable": true,
+      "hit_top3": true,
+      "faithfulness": 1.0,
+      "refused": false,
+      "answer": "If D > 0, the roots are real and distinct. If D = 0, the roots are coincident (also referred to as real). If D < 0, there are no real roots (Source: Quadratic_Equations, p2).",
+      "retrieved": [
+        [
+          "Quadratic_Equations",
+          2,
+          0.625
+        ],
+        [
+          "Quadratic_Equations",
+          2,
+          0.536
+        ],
+        [
+          "Quadratic_Equations",
+          1,
+          0.494
+        ]
+      ]
+    },
+    {
+      "id": 5,
+      "question": "Explain how to find the derivative of sin(x) using first principles.",
+      "answerable": false,
+      "hit_top3": null,
+      "faithfulness": null,
+      "refused": true,
+      "answer": "This isn't covered in the provided material.",
+      "retrieved": [
+        [
+          "Trigonometric_Ratios_and_Identities",
+          13,
+          0.455
+        ],
+        [
+          "Trigonometric_Ratios_and_Identities",
+          13,
+          0.386
+        ],
+        [
+          "Trigonometric_Ratios_and_Identities",
+          12,
+          0.347
+        ]
+      ]
+    },
+    {
+      "id": 6,
+      "question": "Convert 225° into radians.",
+      "answerable": true,
+      "hit_top3": true,
+      "faithfulness": 1.0,
+      "refused": false,
+      "answer": "To convert 225° into radians, we use the relation: 180° = π radians (Source: Trigonometric_Ratios_and_Identities, Page 2). \n\nWe can set up a proportion to find the radian measure of 225°:\n180° = π radians\n225° = x radians\n\nWe can then solve for x by setting up a proportion:\n(180°)/(π radians) = (225°)/x radians\nx = (225° * π radians) / (180°)\nx = (5/4) * π radians\nx = (5/4) * π \n\nSo, 225° is equal to (5/4) * π radians or 5π/4 radians (using the relation from Source: Trigonometric_Ratios_and_Identities, Page 2).",
+      "retrieved": [
+        [
+          "Trigonometric_Ratios_and_Identities",
+          2,
+          0.528
+        ],
+        [
+          "Trigonometric_Ratios_and_Identities",
+          17,
+          0.448
+        ],
+        [
+          "Trigonometric_Ratios_and_Identities",
+          1,
+          0.433
+        ]
+      ]
+    },
+    {
+      "id": 7,
+      "question": "Convert 7π/12 radians into degrees.",
+      "answerable": true,
+      "hit_top3": true,
+      "faithfulness": 1.0,
+      "refused": false,
+      "answer": "To convert radians to degrees, we use the relation: 1° = π/180 rad (Source: Trigonometric_Ratios_and_Identities, Page 2). \n\nGiven 7π/12 radians, we can convert it to degrees as follows:\n(7π/12) * (180/π) = 7 * 15 = 105°.\n\nTherefore, 7π/12 radians is equal to 105°. (Source: Trigonometric_Ratios_and_Identities, Page 2)",
+      "retrieved": [
+        [
+          "Trigonometric_Ratios_and_Identities",
+          2,
+          0.526
+        ],
+        [
+          "Trigonometric_Ratios_and_Identities",
+          17,
+          0.479
+        ],
+        [
+          "Trigonometric_Ratios_and_Identities",
+          4,
+          0.455
+        ]
+      ]
+    },
+    {
+      "id": 8,
+      "question": "Find the quadrant in which the angle –510° lies.",
+      "answerable": true,
+      "hit_top3": true,
+      "faithfulness": 0.5,
+      "refused": false,
+      "answer": "To find the quadrant in which the angle –510° lies, we first need to understand how angles are measured and what the sign convention indicates. According to the context (Source: Trigonometric_Ratios_and_Identities, Page 1), the sign convention for angles is as follows: \"direction will indicate +ve angle\" for anticlockwise and \"-ve angle\" for clockwise.\n\nGiven that the angle is –510°, it is negative, indicating a clockwise direction from the positive x-axis.\n\nNext, we need to determine the equivalent positive angle within one full rotation (360°) to identify the quadrant. Since –510° is more than one full rotation (–510° + 360° = –150°), we continue to add 360° until we get a positive angle less than 360°. \n\nSo, –510° + 360° = –150°. Still negative, we add another 360°: –150° + 360° = 210°.\n\nNow, we have a positive angle, 210°, which is within one full rotation. According to the context (Source: Trigonometric_Ratios_and_Identities, Page 1), the quadrants are defined as follows:\n- 0° < a < 90°: I quadrant\n- 90° < a < 180°: II quadrant\n- 180° < a < 270°: III quadrant\n- 270° < a < 360°: IV quadrant\n\nSince 210° falls between 180° and 270°, it lies in the III quadrant.\n\nTherefore, the angle –510° lies in the III quadrant (Source: Trigonometric_Ratios_and_Identities, Page 1).",
+      "retrieved": [
+        [
+          "Trigonometric_Ratios_and_Identities",
+          1,
+          0.51
+        ],
+        [
+          "Trigonometric_Ratios_and_Identities",
+          2,
+          0.489
+        ],
+        [
+          "Trigonometric_Ratios_and_Identities",
+          17,
+          0.48
+        ]
+      ]
+    },
+    {
+      "id": 9,
+      "question": "If sin θ = 5/13 and θ is acute, find cos θ and tan θ.",
+      "answerable": true,
+      "hit_top3": false,
+      "faithfulness": 1.0,
+      "refused": false,
+      "answer": "We know that sin²θ + cos²θ = 1 (Source: Trigonometric_Ratios_and_Identities, Page 17). Given sin θ = 5/13, we can find cos θ.\n\ncos²θ = 1 - sin²θ\n= 1 - (5/13)²\n= 1 - 25/169\n= (169 - 25)/169\n= 144/169\n\nSince θ is acute, cos θ is positive. Therefore, \ncos θ = √(144/169) = 12/13 (Source: Trigonometric_Ratios_and_Identities, Page 17).\n\nNow, we can find tan θ using the formula tan θ = sin θ / cos θ (Source: Trigonometric_Ratios_and_Identities, Page 17).\ntan θ = (5/13) / (12/13)\n= 5/12\n\nTherefore, cos θ = 12/13 and tan θ = 5/12.",
+      "retrieved": [
+        [
+          "Trigonometric_Ratios_and_Identities",
+          17,
+          0.453
+        ],
+        [
+          "Trigonometric_Ratios_and_Identities",
+          18,
+          0.437
+        ],
+        [
+          "Trigonometric_Ratios_and_Identities",
+          11,
+          0.416
+        ]
+      ]
+    },
+    {
+      "id": 10,
+      "question": "Prove that (1−cosθ)/(sinθ)=cosecθ−cotθ.",
+      "answerable": true,
+      "hit_top3": true,
+      "faithfulness": 1.0,
+      "refused": false,
+      "answer": "We start with the left-hand side of the equation: (1−cosθ)/(sinθ).\n\nUsing the identity sin²θ + cos²θ = 1 (Source: Trigonometric_Ratios_and_Identities, Page 3), we can rewrite 1 as sin²θ + cos²θ.\n\nSo, (1−cosθ)/(sinθ) = (sin²θ + cos²θ - cosθ)/(sinθ) = (sin²θ - cosθ + cos²θ)/(sinθ).\n\nNow, we factor out sin²θ and cos²θ: (sin²θ - cosθ + cos²θ)/(sinθ) = (sinθ(sinθ) - cosθ + cos²θ)/(sinθ).\n\nSeparating the terms: (sinθ(sinθ) - cosθ + cos²θ)/(sinθ) = sinθ - (cosθ)/(sinθ) + (cos²θ)/(sinθ).\n\nUsing the definitions of cotθ = cosθ/sinθ and cosecθ = 1/sinθ (Source: Trigonometric_Ratios_and_Identities, Page 3), we can rewrite the equation as: sinθ - cotθ + (cos²θ)/(sinθ).\n\nNow, using the identity cos²θ = 1 - sin²θ (Source: Trigonometric_Ratios_and_Identities, Page 3), we can rewrite (cos²θ)/(sinθ) as (1 - sin²θ)/(sinθ) = (1)/(sinθ) - sinθ = cosecθ - sinθ.\n\nSubstituting back into our equation: sinθ - cotθ + cosecθ - sinθ.\n\nThe sinθ terms cancel out: - cotθ + cosecθ.\n\nSo, (1−cosθ)/(sinθ) = cosecθ - cotθ.\n\n(Source: Trigonometric_Ratios_and_Identities, Page 3)",
+      "retrieved": [
+        [
+          "Trigonometric_Ratios_and_Identities",
+          1,
+          0.43
+        ],
+        [
+          "Trigonometric_Ratios_and_Identities",
+          3,
+          0.426
+        ],
+        [
+          "Trigonometric_Ratios_and_Identities",
+          4,
+          0.399
+        ]
+      ]
+    },
+    {
+      "id": 11,
+      "question": "Simplify sin(180°+θ)+cos(360°−θ).",
+      "answerable": true,
+      "hit_top3": false,
+      "faithfulness": 0.0,
+      "refused": false,
+      "answer": "To simplify the given expression, we can use the identities provided in the context.\n\nFirst, we can rewrite sin(180°+θ) using the identity sin(A + B) = sinAcosB + cosAsinB (Source: Trigonometric_Ratios_and_Identities, Page 12). However, we can also use the fact that sin(180° + θ) = -sin(θ) since sin(180° + θ) = sin(180°)cos(θ) + cos(180°)sin(θ) and sin(180°) = 0, cos(180°) = -1.\n\nSo, sin(180°+θ) = -sin(θ).\n\nNext, we can simplify cos(360°−θ) using the fact that cos(360° - θ) = cos(θ) since cosine is periodic with period 360° and cos(-θ) = cos(θ).\n\nTherefore, sin(180°+θ)+cos(360°−θ) = -sin(θ) + cos(θ).\n\nWe cannot simplify this expression further using the provided identities. \n\nHowever, we can express -sin(θ) + cos(θ) in terms of a single trigonometric function using the identity 2 sinA cosB = sin(A + B) + sin(A - B) or 2 cosA sinB = sin(A + B) - sin(A - B) (Source: Trigonometric_Ratios_and_Identities, Page 12), but it would require expressing -sin(θ) + cos(θ) in the form of 2 sinA cosB or 2 cosA sinB, which is not directly possible.\n\nBut we can use the identity 2 cosA cosB = cos(A + B) + cos(A - B) (Source: Trigonometric_Ratios_and_Identities, Page 12) to get an expression similar to -sin(θ) + cos(θ) by dividing the whole expression by √2 and using the angle addition formula, but that would require additional steps and would not directly simplify the given expression.\n\nSo the simplified expression is -sin(θ) + cos(θ).",
+      "retrieved": [
+        [
+          "Trigonometric_Ratios_and_Identities",
+          12,
+          0.544
+        ],
+        [
+          "Trigonometric_Ratios_and_Identities",
+          13,
+          0.516
+        ],
+        [
+          "Trigonometric_Ratios_and_Identities",
+          13,
+          0.484
+        ]
+      ]
+    },
+    {
+      "id": 12,
+      "question": "Evaluate tan 255°.",
+      "answerable": true,
+      "failed": false,
+      "hit_top3": false,
+      "faithfulness": 1.0,
+      "refused": false,
+      "answer": "To evaluate tan 255°, we can use the identity tan (180° + θ) = tan θ, which can be derived from the definition of tangent in different quadrants (Source: Trigonometric_Ratios_and_Identities, Page 5).\n\nSince 255° is in the third quadrant, we can rewrite it as 255° = 180° + 75°. \n\nUsing the identity tan (180° + θ) = tan θ, we get:\ntan 255° = tan (180° + 75°) = tan 75°.\n\nNow, to find tan 75°, we can use the angle addition formula for tangent, but it's not directly provided in the context. However, we can use the fact that tan (90° - θ) = cot θ, and cot θ = 1 / tan θ.\n\nWe know that tan 15° = 2 - √3 (not directly provided in the context, but we can use the given trigonometric identities to find it). \n\nHowever, we can use the identity tan (45° + θ) = (1 + tan θ) / (1 - tan θ) to find tan 75°, since 75° = 45° + 30°.\n\nWe know that tan 45° = 1 and tan 30° = 1/√3 (Source: Trigonometric_Ratios_and_Identities, Page 18).\n\nUsing the identity tan (45° + θ) = (1 + tan θ) / (1 - tan θ), we get:\ntan 75° = tan (45° + 30°) = (1 + 1/√3) / (1 - 1/√3) = (√3 + 1) / (√3 - 1).\n\nRationalizing the denominator, we get:\ntan 75° = (√3 + 1) / (√3 - 1) * (√3 + 1) / (√3 + 1) = (√3 + 1)^2 / (√3^2 - 1^2) = (√3 + 1)^2 / (3 - 1) = (√3 + 1)^2 / 2 = (3 + 2√3 + 1) / 2 = (4 + 2√3) / 2 = 2 + √3.\n\nSo, tan 255° = tan 75° = 2 + √3.\n\n(Source: Trigonometric_Ratios_and_Identities, Page 18).",
+      "retrieved": [
+        [
+          "Trigonometric_Ratios_and_Identities",
+          18,
+          0.549
+        ],
+        [
+          "Trigonometric_Ratios_and_Identities",
+          17,
+          0.505
+        ],
+        [
+          "Trigonometric_Ratios_and_Identities",
+          5,
+          0.497
+        ]
+      ]
+    },
+    {
+      "id": 13,
+      "question": "Find sin75° using compound-angle formula.",
+      "answerable": true,
+      "failed": false,
+      "hit_top3": true,
+      "faithfulness": 0.5,
+      "refused": false,
+      "answer": "To find sin75°, we can use the compound-angle formula for sine: sin(A + B) = sinA cosB + cosA sinB (Source: Trigonometric_Ratios_and_Identities, Page 12).\n\nLet A = 45° and B = 30°. We know that sin45° = 1/√2, cos45° = 1/√2, sin30° = 1/2, and cos30° = √3/2.\n\nSubstituting these values into the formula, we get:\nsin75° = sin(45° + 30°) = sin45° cos30° + cos45° sin30°\n= (1/√2) * (√3/2) + (1/√2) * (1/2)\n= (√3/2√2) + (1/2√2)\n= (√3 + 1) / 2√2\n= (√6 + √2) / 4\n\nAlternatively, we can also use the given information that sin75° = cos15° (Source: Trigonometric_Ratios_and_Identities, Page 12). However, to find the exact value of sin75°, we need to use the compound-angle formula as shown above.",
+      "retrieved": [
+        [
+          "Trigonometric_Ratios_and_Identities",
+          12,
+          0.598
+        ],
+        [
+          "Trigonometric_Ratios_and_Identities",
+          18,
+          0.538
+        ],
+        [
+          "Trigonometric_Ratios_and_Identities",
+          13,
+          0.526
+        ]
+      ]
+    },
+    {
+      "id": 14,
+      "question": "Express cos(2A) in terms of tanA.",
+      "answerable": true,
+      "failed": false,
+      "hit_top3": true,
+      "faithfulness": 1.0,
+      "refused": false,
+      "answer": "We can express cos(2A) in terms of tanA using the identity:\n\ncos(2A) = 1 - 2sin²A (Source: Trigonometric_Ratios_and_Identities, Page 4)\n\nand the identity:\n\ntanA = sinA / cosA\n\nRearranging the second identity, we get:\n\nsinA = tanA * cosA\n\nSubstituting this into the first identity, we get:\n\ncos(2A) = 1 - 2(tanA * cosA)²\n= 1 - 2(tan²A * cos²A)\n\nUsing the identity:\n\n1 + tan²A = sec²A = 1 / cos²A (Source: Trigonometric_Ratios_and_Identities, Page 4)\n\nwe can rewrite cos²A as:\n\ncos²A = 1 / (1 + tan²A)\n\nSubstituting this into the previous equation, we get:\n\ncos(2A) = 1 - 2(tan²A / (1 + tan²A))\n= (1 + tan²A - 2tan²A) / (1 + tan²A)\n= (1 - tan²A) / (1 + tan²A)\n\nTherefore, cos(2A) can be expressed in terms of tanA as:\n\ncos(2A) = (1 - tan²A) / (1 + tan²A) (Source: Trigonometric_Ratios_and_Identities, Page 4)",
+      "retrieved": [
+        [
+          "Trigonometric_Ratios_and_Identities",
+          4,
+          0.588
+        ],
+        [
+          "Trigonometric_Ratios_and_Identities",
+          13,
+          0.575
+        ],
+        [
+          "Trigonometric_Ratios_and_Identities",
+          16,
+          0.569
+        ]
+      ]
+    },
+    {
+      "id": 15,
+      "question": "If secθ+tanθ=5, find secθ−tanθ.",
+      "answerable": true,
+      "failed": false,
+      "hit_top3": false,
+      "faithfulness": 1.0,
+      "refused": false,
+      "answer": "We know that (secθ + tanθ)(secθ - tanθ) = sec²θ - tan²θ = 1 (Source: Trigonometric_Ratios_and_Identities, Page 17).\n\nGiven secθ + tanθ = 5, we can write:\n5(secθ - tanθ) = 1\nsecθ - tanθ = 1/5\n\nTherefore, secθ - tanθ = 1/5. (Source: Trigonometric_Ratios_and_Identities, Page 17)",
+      "retrieved": [
+        [
+          "Trigonometric_Ratios_and_Identities",
+          17,
+          0.47
+        ],
+        [
+          "Trigonometric_Ratios_and_Identities",
+          18,
+          0.412
+        ],
+        [
+          "Trigonometric_Ratios_and_Identities",
+          7,
+          0.389
+        ]
+      ]
+    },
+    {
+      "id": 16,
+      "question": "Evaluate sin15° cos15°.",
+      "answerable": true,
+      "failed": false,
+      "hit_top3": true,
+      "faithfulness": 1.0,
+      "refused": false,
+      "answer": "We can use the formula 2 sinA cosB = sin(A + B) + sin(A - B) (Source: Trigonometric_Ratios_and_Identities, p12).\n\nLet A = 15° and B = 15°. Then, \n2 sin15° cos15° = sin(15° + 15°) + sin(15° - 15°)\n= sin30° + sin0°\n= 1/2 + 0\n= 1/2\n\nSo, sin15° cos15° = 1/4 (Source: Trigonometric_Ratios_and_Identities, p12).",
+      "retrieved": [
+        [
+          "Trigonometric_Ratios_and_Identities",
+          12,
+          0.579
+        ],
+        [
+          "Trigonometric_Ratios_and_Identities",
+          18,
+          0.568
+        ],
+        [
+          "Trigonometric_Ratios_and_Identities",
+          17,
+          0.561
+        ]
+      ]
+    },
+    {
+      "id": 17,
+      "question": "If tanθ=3/4 and θ is in III quadrant, find all trigonometric ratios.",
+      "answerable": true,
+      "failed": false,
+      "hit_top3": false,
+      "faithfulness": 1.0,
+      "refused": false,
+      "answer": "Given tanθ = 3/4 and θ is in III quadrant. \n\nWe know that tanθ = sinθ / cosθ. \nUsing the identity 1 + tan²θ = sec²θ (Source: Trigonometric_Ratios_and_Identities, Page 4), \nwe can find secθ. \n\n1 + (3/4)² = sec²θ\n1 + 9/16 = sec²θ\n(16 + 9) / 16 = sec²θ\n25/16 = sec²θ\nsecθ = ±√(25/16) = ±5/4\n\nSince θ is in III quadrant, secθ is negative. \nSo, secθ = -5/4.\n\nNow, cosθ = 1 / secθ = 1 / (-5/4) = -4/5 (Source: Trigonometric_Ratios_and_Identities, Page 4).\n\nWe know that sin²θ + cos²θ = 1.\nSo, sin²θ = 1 - cos²θ = 1 - (-4/5)² = 1 - 16/25 = (25 - 16) / 25 = 9/25.\nsinθ = ±√(9/25) = ±3/5\n\nSince θ is in III quadrant, sinθ is negative. \nSo, sinθ = -3/5.\n\nWe also know that cotθ = 1 / tanθ = 1 / (3/4) = 4/3 (Source: Trigonometric_Ratios_and_Identities, Page 4).\ncosecθ = 1 / sinθ = 1 / (-3/5) = -5/3 (Source: Trigonometric_Ratios_and_Identities, Page 4).\n\nSo, all the trigonometric ratios are:\nsinθ = -3/5, cosθ = -4/5, tanθ = 3/4, cotθ = 4/3, secθ = -5/4, cosecθ = -5/3.",
+      "retrieved": [
+        [
+          "Trigonometric_Ratios_and_Identities",
+          16,
+          0.442
+        ],
+        [
+          "Trigonometric_Ratios_and_Identities",
+          1,
+          0.438
+        ],
+        [
+          "Trigonometric_Ratios_and_Identities",
+          4,
+          0.434
+        ]
+      ]
+    },
+    {
+      "id": 18,
+      "question": "Prove sin⁴θ+cos⁴θ=1−2sin²θcos²θ.",
+      "answerable": true,
+      "failed": false,
+      "hit_top3": false,
+      "faithfulness": 0.5,
+      "refused": false,
+      "answer": "We can start by using the identity (Source: Trigonometric_Ratios_and_Identities, Page 12): \nsin²A + cos²A = 1.\n\nLet's square this equation:\n(sin²A + cos²A)² = 1²\nsin⁴A + 2sin²Acos²A + cos⁴A = 1\n\nNow, rearrange the terms:\nsin⁴A + cos⁴A = 1 - 2sin²Acos²A\n\nSubstitute A = θ:\nsin⁴θ + cos⁴θ = 1 - 2sin²θcos²θ\n\nTherefore, we have proved the given equation. (Source: Trigonometric_Ratios_and_Identities, Page 12)",
+      "retrieved": [
+        [
+          "Trigonometric_Ratios_and_Identities",
+          12,
+          0.495
+        ],
+        [
+          "Trigonometric_Ratios_and_Identities",
+          18,
+          0.459
+        ],
+        [
+          "Trigonometric_Ratios_and_Identities",
+          20,
+          0.433
+        ]
+      ]
+    },
+    {
+      "id": 19,
+      "question": "Find the maximum value of 3sinx+4cosx.",
+      "answerable": true,
+      "failed": false,
+      "hit_top3": true,
+      "faithfulness": 1.0,
+      "refused": false,
+      "answer": "To find the maximum value of 3sinx + 4cosx, we can use the method from E(1) on Page 23, where we make a perfect square in sine/cosine. However, a more direct approach is using the property that the maximum value of expressions like asinx + bcosx occurs when the ratio of coefficients equals the ratio of sine and cosine of the angle, but a simpler method from the context provided is considering expressions in the form of a*sin(x) + b*cos(x) can be rewritten in the form sqrt(a^2 + b^2)*sin(x + y), where y is an angle such that cos(y) = a/sqrt(a^2 + b^2) and sin(y) = b/sqrt(a^2 + b^2). \n\nGiven 3sinx + 4cosx, we recognize this as a form where we can apply the identity that the maximum value of asinx + bcosx is sqrt(a^2 + b^2). \n\nThus, the maximum value = sqrt(3^2 + 4^2) = sqrt(9 + 16) = sqrt(25) = 5.\n\n(Source: Trigonometric_Ratios_and_Identities, general approach from various examples)",
+      "retrieved": [
+        [
+          "Trigonometric_Ratios_and_Identities",
+          24,
+          0.51
+        ],
+        [
+          "Trigonometric_Ratios_and_Identities",
+          23,
+          0.468
+        ],
+        [
+          "Trigonometric_Ratios_and_Identities",
+          21,
+          0.462
+        ]
+      ]
+    },
+    {
+      "id": 20,
+      "question": "Solve sinx=√3/2 for 0≤x≤2π.",
+      "answerable": true,
+      "failed": false,
+      "hit_top3": false,
+      "faithfulness": 1.0,
+      "refused": false,
+      "answer": "To solve sin(x) = √3/2, we need to find the values of x that satisfy this equation within the given interval 0 ≤ x ≤ 2π.\n\nFrom the context, we know that sin(60°) = √3/2 (Source: Trigonometric_Ratios_and_Identities, Page 13 is not directly relevant, but standard trigonometric values are implied). \n\nSince sin(x) = √3/2, we can write x = 60° or x = π/3 radians, and also x = 120° or x = 2π/3 radians, due to the periodic nature of the sine function and its symmetry about π/2.\n\nTherefore, the solutions to sin(x) = √3/2 for 0 ≤ x ≤ 2π are x = π/3 and x = 2π - π/3 = 5π/3.\n\n(Source: The exact page is not specified for standard trigonometric values, but the information is commonly known and used in the context of Trigonometric_Ratios_and_Identities.)",
+      "retrieved": [
+        [
+          "Trigonometric_Ratios_and_Identities",
+          13,
+          0.464
+        ],
+        [
+          "Trigonometric_Ratios_and_Identities",
+          23,
+          0.426
+        ],
+        [
+          "Trigonometric_Ratios_and_Identities",
+          17,
+          0.421
+        ]
+      ]
+    },
+    {
+      "id": 21,
+      "question": "Evaluate cos(−300°).",
+      "answerable": true,
+      "failed": false,
+      "hit_top3": false,
+      "faithfulness": 1.0,
+      "refused": false,
+      "answer": "To evaluate cos(−300°), we can use the identity that relates the cosine of an angle to the cosine of its negative counterpart, but such an identity is not explicitly provided. However, we can utilize the fact that cos(C) = cos(-C) due to the even nature of the cosine function, which can be inferred from trigonometric principles.\n\nGiven that cos(C) = cos(-C), we can then find cos(−300°) by using the angle addition formula or recognizing that −300° is equivalent to 60° (since 360° - 300° = 60°).\n\nUsing the fact that cos(60°) is a known value, we proceed:\n\ncos(−300°) = cos(300°) due to the even property of cosine, \nand since 300° is in the 4th quadrant where cosine is positive, \nwe find its equivalent angle in the first quadrant which is 60°.\n\nThus, cos(−300°) = cos(60°).\n\nFrom basic trigonometry, we know that cos(60°) = 1/2.\n\nTherefore, cos(−300°) = 1/2.\n\n(Source: Trigonometric_Ratios_and_Identities, general understanding of trigonometric functions and their properties, though not explicitly stated on a specific page in the provided context.)",
+      "retrieved": [
+        [
+          "Trigonometric_Ratios_and_Identities",
+          17,
+          0.571
+        ],
+        [
+          "Trigonometric_Ratios_and_Identities",
+          13,
+          0.537
+        ],
+        [
+          "Trigonometric_Ratios_and_Identities",
+          13,
+          0.491
+        ]
+      ]
+    },
+    {
+      "id": 22,
+      "question": "Find the period of y=tan(3x−π/6).",
+      "answerable": true,
+      "failed": false,
+      "hit_top3": false,
+      "faithfulness": 1.0,
+      "refused": false,
+      "answer": "The period of tan(x) is 180° or π (Source: Trigonometric_Ratios_and_Identities, Page 6). \nTo find the period of y = tan(3x - π/6), we need to find the value of x that makes the argument of the tangent function (3x - π/6) increase by π.\n\nLet 3x - π/6 = π, then 3x = 7π/6, and x = 7π/18.\n\nLet 3x - π/6 = 0, then 3x = π/6, and x = π/18.\n\nThe period is the difference between these two x values: \nPeriod = 7π/18 - π/18 = 6π/18 = π/3.\n\nSo, the period of y = tan(3x - π/6) is π/3 (Source: Trigonometric_Ratios_and_Identities, Page 6).",
+      "retrieved": [
+        [
+          "Trigonometric_Ratios_and_Identities",
+          17,
+          0.427
+        ],
+        [
+          "Trigonometric_Ratios_and_Identities",
+          5,
+          0.42
+        ],
+        [
+          "Trigonometric_Ratios_and_Identities",
+          6,
+          0.393
+        ]
+      ]
+    },
+    {
+      "id": 23,
+      "question": "Show that tan²θ−sin²θ=sin⁴θ sec²θ.",
+      "answerable": true,
+      "failed": false,
+      "hit_top3": true,
+      "faithfulness": 0.0,
+      "refused": false,
+      "answer": "We start with the left-hand side of the equation: tan²θ - sin²θ.\n\nUsing the identity tan²θ + 1 = sec²θ (Source: Trigonometric_Ratios_and_Identities, Page 3), we can rewrite tan²θ as sec²θ - 1.\n\nSo, tan²θ - sin²θ = sec²θ - 1 - sin²θ.\n\nUsing the identity sin²θ + cos²θ = 1 (Source: Trigonometric_Ratios_and_Identities, Page 3), we can rewrite 1 - sin²θ as cos²θ.\n\nSo, tan²θ - sin²θ = sec²θ - cos²θ.\n\nUsing the identity sec²θ = 1/cos²θ (Source: Trigonometric_Ratios_and_Identities, Page 3), we can rewrite sec²θ as 1/cos²θ.\n\nSo, tan²θ - sin²θ = 1/cos²θ - cos²θ.\n\nFactoring out cos²θ, we get tan²θ - sin²θ = (1 - cos⁴θ)/cos²θ.\n\nUsing the identity sin²θ + cos²θ = 1 (Source: Trigonometric_Ratios_and_Identities, Page 3), we can rewrite 1 - cos⁴θ as (1 - cos²θ)(1 + cos²θ) = sin²θ(1 + cos²θ) = sin²θ(2 - sin²θ) = 2sin²θ - sin⁴θ.\n\nSo, tan²θ - sin²θ = (2sin²θ - sin⁴θ)/cos²θ.\n\nUsing the identity sec²θ = 1/cos²θ (Source: Trigonometric_Ratios_and_Identities, Page 3), we can rewrite 1/cos²θ as sec²θ.\n\nSo, tan²θ - sin²θ = (2sin²θ - sin⁴θ)sec²θ.\n\nFactoring out sin²θ, we get tan²θ - sin²θ = sin²θ(2 - sin²θ)sec²θ.\n\nUsing the identity sin²θ + cos²θ = 1 (Source: Trigonometric_Ratios_and_Identities, Page 3), we can rewrite 2 - sin²θ as 1 + cos²θ = 1 + (1 - sin²θ) = 2 - sin²θ.\n\nHowever, we can simplify this further by noticing that sin⁴θ sec²θ = sin²θ(1 - cos²θ)sec²θ = sin²θ(1 - 1/sec²θ)sec²θ = sin²θ(sec²θ - 1) = sin²θ(tan²θ) = sin²θ(sec²θ - 1) = sin²θtan²θ.\n\nSince tan²θ = sec²θ - 1, we can rewrite tan²θ - sin²θ = sec²θ - 1 - sin²θ = sin⁴θ sec²θ.\n\nTherefore, tan²θ - sin²θ = sin⁴θ sec²θ (Source: Trigonometric_Ratios_and_Identities, Page 3).\n\nHence, we have shown that tan²θ - sin²θ = sin⁴θ sec²θ.",
+      "retrieved": [
+        [
+          "Trigonometric_Ratios_and_Identities",
+          12,
+          0.408
+        ],
+        [
+          "Trigonometric_Ratios_and_Identities",
+          18,
+          0.391
+        ],
+        [
+          "Trigonometric_Ratios_and_Identities",
+          3,
+          0.364
+        ]
+      ]
+    },
+    {
+      "id": 24,
+      "question": "Evaluate Σ: cos20°+cos40°+cos140°+cos160°.",
+      "answerable": true,
+      "failed": true,
+      "hit_top3": null,
+      "faithfulness": null,
+      "refused": null,
+      "answer": "[ERROR: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01ktrnnb1qe1k9daa9ybw84mx6` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 98356, Requested 1921. Please try again in 3m59.328s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}]",
+      "retrieved": []
+    },
+    {
+      "id": 25,
+      "question": "A point on the unit circle has y=−4/5 in quadrant IV. Find all trigonometric ratios.",
+      "answerable": true,
+      "failed": true,
+      "hit_top3": null,
+      "faithfulness": null,
+      "refused": null,
+      "answer": "[ERROR: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01ktrnnb1qe1k9daa9ybw84mx6` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 98332, Requested 2303. Please try again in 9m8.64s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}]",
+      "retrieved": []
+    },
+    {
+      "id": 26,
+      "question": "Solve x²−7x+10=0.",
+      "answerable": true,
+      "failed": false,
+      "hit_top3": true,
+      "faithfulness": 1.0,
+      "refused": false,
+      "answer": "To solve the quadratic equation x² - 7x + 10 = 0, we can use the algebraic method (Source: Quadratic_Equations, p1). \n\nThe given equation is in the form ax² + bx + c = 0, where a = 1, b = -7, and c = 10. \n\nUsing the formula x = (-b ± √(b² - 4ac)) / 2a (Source: Quadratic_Equations, p1), we can substitute the values of a, b, and c into the formula:\n\nx = (7 ± √((-7)² - 4*1*10)) / 2*1\nx = (7 ± √(49 - 40)) / 2\nx = (7 ± √9) / 2\nx = (7 ± 3) / 2\n\nSo, the roots of the equation are x = (7 + 3) / 2 = 5 and x = (7 - 3) / 2 = 2.\n\nTherefore, the solutions to the equation x² - 7x + 10 = 0 are x = 5 and x = 2 (Source: Quadratic_Equations, p1).",
+      "retrieved": [
+        [
+          "Quadratic_Equations",
+          1,
+          0.403
+        ],
+        [
+          "Quadratic_Equations",
+          1,
+          0.379
+        ],
+        [
+          "Quadratic_Equations",
+          1,
+          0.352
+        ]
+      ]
+    },
+    {
+      "id": 27,
+      "question": "Find the quadratic equation whose roots are 3 and −5.",
+      "answerable": true,
+      "failed": true,
+      "hit_top3": null,
+      "faithfulness": null,
+      "refused": null,
+      "answer": "[ERROR: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01ktrnnb1qe1k9daa9ybw84mx6` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99410, Requested 2023. Please try again in 20m38.112s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}]",
+      "retrieved": []
+    },
+    {
+      "id": 28,
+      "question": "If roots are α,β with α+β=8 and αβ=12, form the equation.",
+      "answerable": true,
+      "failed": true,
+      "hit_top3": null,
+      "faithfulness": null,
+      "refused": null,
+      "answer": "[ERROR: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01ktrnnb1qe1k9daa9ybw84mx6` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99386, Requested 2092. Please try again in 21m16.992s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}]",
+      "retrieved": []
+    },
+    {
+      "id": 29,
+      "question": "Determine the nature of roots of 2x²+4x+5=0.",
+      "answerable": true,
+      "failed": true,
+      "hit_top3": null,
+      "faithfulness": null,
+      "refused": null,
+      "answer": "[ERROR: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01ktrnnb1qe1k9daa9ybw84mx6` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99362, Requested 2100. Please try again in 21m3.168s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}]",
+      "retrieved": []
+    },
+    {
+      "id": 30,
+      "question": "If one root of x²−5x+k=0 is 2, find k.",
+      "answerable": true,
+      "failed": true,
+      "hit_top3": null,
+      "faithfulness": null,
+      "refused": null,
+      "answer": "[ERROR: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01ktrnnb1qe1k9daa9ybw84mx6` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99338, Requested 2023. Please try again in 19m35.904s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}]",
+      "retrieved": []
+    },
+    {
+      "id": 31,
+      "question": "Find k so that x²+kx+9=0 has equal roots.",
+      "answerable": true,
+      "failed": true,
+      "hit_top3": null,
+      "faithfulness": null,
+      "refused": null,
+      "answer": "[ERROR: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01ktrnnb1qe1k9daa9ybw84mx6` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99314, Requested 1895. Please try again in 17m24.576s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}]",
+      "retrieved": []
+    },
+    {
+      "id": 32,
+      "question": "If α,β are roots of x²−6x+5=0, find α²+β².",
+      "answerable": true,
+      "failed": true,
+      "hit_top3": null,
+      "faithfulness": null,
+      "refused": null,
+      "answer": "[ERROR: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01ktrnnb1qe1k9daa9ybw84mx6` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99290, Requested 2610. Please try again in 27m21.6s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}]",
+      "retrieved": []
+    },
+    {
+      "id": 33,
+      "question": "Find equation whose roots are reciprocals of roots of 2x²−3x−2=0.",
+      "answerable": true,
+      "failed": true,
+      "hit_top3": null,
+      "faithfulness": null,
+      "refused": null,
+      "answer": "[ERROR: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01ktrnnb1qe1k9daa9ybw84mx6` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99265, Requested 2189. Please try again in 20m56.256s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}]",
+      "retrieved": []
+    },
+    {
+      "id": 34,
+      "question": "Find minimum value of x²−8x+20.",
+      "answerable": true,
+      "failed": true,
+      "hit_top3": null,
+      "faithfulness": null,
+      "refused": null,
+      "answer": "[ERROR: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01ktrnnb1qe1k9daa9ybw84mx6` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99241, Requested 2289. Please try again in 22m1.919999999s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}]",
+      "retrieved": []
+    },
+    {
+      "id": 35,
+      "question": "Find maximum value of −2x²+12x−5.",
+      "answerable": true,
+      "failed": true,
+      "hit_top3": null,
+      "faithfulness": null,
+      "refused": null,
+      "answer": "[ERROR: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01ktrnnb1qe1k9daa9ybw84mx6` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99217, Requested 3799. Please try again in 43m25.824s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}]",
+      "retrieved": []
+    },
+    {
+      "id": 36,
+      "question": "Solve inequality x²−5x+6>0.",
+      "answerable": true,
+      "failed": true,
+      "hit_top3": null,
+      "faithfulness": null,
+      "refused": null,
+      "answer": "[ERROR: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01ktrnnb1qe1k9daa9ybw84mx6` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99193, Requested 2173. Please try again in 19m40.224s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}]",
+      "retrieved": []
+    },
+    {
+      "id": 37,
+      "question": "Solve |x²−4|<5.",
+      "answerable": true,
+      "failed": true,
+      "hit_top3": null,
+      "faithfulness": null,
+      "refused": null,
+      "answer": "[ERROR: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01ktrnnb1qe1k9daa9ybw84mx6` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99169, Requested 3107. Please try again in 32m46.464s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}]",
+      "retrieved": []
+    },
+    {
+      "id": 38,
+      "question": "If α,β are roots of x²+px+6=0 and α²+β²=13, find p.",
+      "answerable": true,
+      "failed": true,
+      "hit_top3": null,
+      "faithfulness": null,
+      "refused": null,
+      "answer": "[ERROR: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01ktrnnb1qe1k9daa9ybw84mx6` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99145, Requested 3161. Please try again in 33m12.384s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}]",
+      "retrieved": []
+    },
+    {
+      "id": 39,
+      "question": "Find remainder when f(x)=x³−2x+5 is divided by x−2.",
+      "answerable": true,
+      "failed": true,
+      "hit_top3": null,
+      "faithfulness": null,
+      "refused": null,
+      "answer": "[ERROR: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01ktrnnb1qe1k9daa9ybw84mx6` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99121, Requested 2401. Please try again in 21m55.008s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}]",
+      "retrieved": []
+    },
+    {
+      "id": 40,
+      "question": "Find condition for ax²+bx+c to be always positive.",
+      "answerable": true,
+      "failed": false,
+      "hit_top3": false,
+      "faithfulness": 0.5,
+      "refused": false,
+      "answer": "To find the condition for ax² + bx + c to be always positive, we need to consider the nature of the roots of the quadratic equation. \n\nSince the quadratic equation is always positive, it means that the equation has no real roots, or in other words, the graph of the quadratic expression does not intersect the x-axis. \n\nFrom the context, we know that the nature of the roots is related to the discriminant, but it is not explicitly mentioned. However, we can infer that if the quadratic equation has no real roots, then the discriminant (b² - 4ac) must be negative. \n\nAlso, from [Source: Quadratic_Equations, Page 2], we know that if the roots of the quadratic equation are opposite in sign, then the product of the roots (c/a) is negative. But for the quadratic to be always positive, we need the coefficient of x² (a) to be positive. \n\nTherefore, the condition for ax² + bx + c to be always positive is that a > 0 and the discriminant (b² - 4ac) < 0 (Source: Quadratic_Equations, Page 2).",
+      "retrieved": [
+        [
+          "Quadratic_Equations",
+          1,
+          0.497
+        ],
+        [
+          "Quadratic_Equations",
+          2,
+          0.491
+        ],
+        [
+          "Quadratic_Equations",
+          1,
+          0.486
+        ]
+      ]
+    },
+    {
+      "id": 41,
+      "question": "Find quadratic equation whose roots are α+1 and β+1 if α,β are roots of x²−4x+1=0.",
+      "answerable": true,
+      "failed": true,
+      "hit_top3": null,
+      "faithfulness": null,
+      "refused": null,
+      "answer": "[ERROR: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01ktrnnb1qe1k9daa9ybw84mx6` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99976, Requested 1474. Please try again in 20m52.8s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}]",
+      "retrieved": []
+    },
+    {
+      "id": 42,
+      "question": "Find value of m so x²−2mx+m+5=0 has no real roots.",
+      "answerable": true,
+      "failed": true,
+      "hit_top3": null,
+      "faithfulness": null,
+      "refused": null,
+      "answer": "[ERROR: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01ktrnnb1qe1k9daa9ybw84mx6` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99952, Requested 2241. Please try again in 31m34.752s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}]",
+      "retrieved": []
+    },
+    {
+      "id": 43,
+      "question": "If equations x²+3x+k=0 and x²+kx+3=0 have a common root, find k.",
+      "answerable": true,
+      "failed": true,
+      "hit_top3": null,
+      "faithfulness": null,
+      "refused": null,
+      "answer": "[ERROR: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01ktrnnb1qe1k9daa9ybw84mx6` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99929, Requested 1253. Please try again in 17m1.248s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}]",
+      "retrieved": []
+    },
+    {
+      "id": 44,
+      "question": "Sketch the graph of y=x²−4x+3 and identify vertex and x-intercepts.",
+      "answerable": true,
+      "failed": true,
+      "hit_top3": null,
+      "faithfulness": null,
+      "refused": null,
+      "answer": "[ERROR: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01ktrnnb1qe1k9daa9ybw84mx6` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99905, Requested 2174. Please try again in 29m56.255999999s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}]",
+      "retrieved": []
+    },
+    {
+      "id": 45,
+      "question": "If roots of x²−9x+20=0 are α,β, compute α³+β³.",
+      "answerable": true,
+      "failed": true,
+      "hit_top3": null,
+      "faithfulness": null,
+      "refused": null,
+      "answer": "[ERROR: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01ktrnnb1qe1k9daa9ybw84mx6` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99881, Requested 1468. Please try again in 19m25.536s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}]",
+      "retrieved": []
+    }
+  ]
+}

@@ -1,0 +1,1320 @@
+{
+  "k": 3,
+  "min_score": null,
+  "n_total": 49,
+  "n_failed": 1,
+  "n_answerable": 47,
+  "n_unanswerable": 1,
+  "retrieval_hit_rate_top3": 0.6170212765957447,
+  "avg_faithfulness": 0.723404255319149,
+  "refusal_accuracy": 1.0,
+  "results": [
+    {
+      "id": 1,
+      "question": "For a quadratic equation ax^2 + bx + c = 0, what are the sum and product of its roots?",
+      "answerable": true,
+      "failed": false,
+      "hit_top3": true,
+      "faithfulness": 1.0,
+      "refused": false,
+      "answer": "The sum of the roots is -b/a and the product of the roots is c/a. (Source: Quadratic_Equations, Page 2)",
+      "retrieved": [
+        [
+          "Quadratic_Equations",
+          2,
+          0.658
+        ],
+        [
+          "Quadratic_Equations",
+          1,
+          0.56
+        ],
+        [
+          "Quadratic_Equations",
+          4,
+          0.483
+        ]
+      ]
+    },
+    {
+      "id": 2,
+      "question": "Why do irrational roots of a quadratic equation with rational coefficients always occur in conjugate pairs?",
+      "answerable": true,
+      "failed": false,
+      "hit_top3": true,
+      "faithfulness": 1.0,
+      "refused": false,
+      "answer": "Irrational roots of a quadratic equation with rational coefficients always occur in conjugate pairs because if one of the roots is m + √n, then the other root will be m - √n (Source: Quadratic_Equations, Page 2).",
+      "retrieved": [
+        [
+          "Quadratic_Equations",
+          2,
+          0.633
+        ],
+        [
+          "Quadratic_Equations",
+          1,
+          0.604
+        ],
+        [
+          "Quadratic_Equations",
+          12,
+          0.422
+        ]
+      ]
+    },
+    {
+      "id": 3,
+      "question": "What are the three basic trigonometric identities relating sin, cos, tan, cot, sec, and cosec?",
+      "answerable": true,
+      "failed": false,
+      "hit_top3": true,
+      "faithfulness": 0.6666666666666666,
+      "refused": false,
+      "answer": "The three basic trigonometric identities are: (1) sin²θ + cos²θ = 1, (2) tan²θ + 1 = sec²θ, and no third identity is explicitly listed as basic, but examples of other identities are provided, such as those involving cosec and cot (Source: Trigonometric_Ratios_and_Identities, Page 3).",
+      "retrieved": [
+        [
+          "Trigonometric_Ratios_and_Identities",
+          3,
+          0.617
+        ],
+        [
+          "Trigonometric_Ratios_and_Identities",
+          19,
+          0.617
+        ],
+        [
+          "Trigonometric_Ratios_and_Identities",
+          4,
+          0.61
+        ]
+      ]
+    },
+    {
+      "id": 4,
+      "question": "If D is the discriminant of a quadratic equation, what does D > 0, D = 0, and D < 0 tell us about the nature of its roots?",
+      "answerable": true,
+      "failed": false,
+      "hit_top3": true,
+      "faithfulness": 1.0,
+      "refused": false,
+      "answer": "The value of D > 0 indicates that the roots of the quadratic equation are real and distinct, D = 0 indicates that the roots are coincident, and D < 0 indicates that there are no real roots (Source: Quadratic_Equations, Page 2).",
+      "retrieved": [
+        [
+          "Quadratic_Equations",
+          2,
+          0.625
+        ],
+        [
+          "Quadratic_Equations",
+          1,
+          0.494
+        ],
+        [
+          "Quadratic_Equations",
+          10,
+          0.487
+        ]
+      ]
+    },
+    {
+      "id": 5,
+      "question": "Explain how to find the derivative of sin(x) using first principles.",
+      "answerable": false,
+      "failed": false,
+      "hit_top3": null,
+      "faithfulness": null,
+      "refused": true,
+      "answer": "This isn't covered in the provided material. \n\nThe context provided focuses on trigonometric ratios and identities, including sum-to-product formulas and trigonometric ratios for specific angles (Source: Trigonometric_Ratios_and_Identities, Pages 12-17), but does not discuss derivatives or calculus.",
+      "retrieved": [
+        [
+          "Trigonometric_Ratios_and_Identities",
+          13,
+          0.455
+        ],
+        [
+          "Trigonometric_Ratios_and_Identities",
+          12,
+          0.347
+        ],
+        [
+          "Trigonometric_Ratios_and_Identities",
+          17,
+          0.339
+        ]
+      ]
+    },
+    {
+      "id": 6,
+      "question": "Convert 225° into radians.",
+      "answerable": true,
+      "failed": false,
+      "hit_top3": true,
+      "faithfulness": 0.0,
+      "refused": false,
+      "answer": "The angle 225° can be converted to radians using the relation 1° = 0.01746 rad (Source: Trigonometric_Ratios_and_Identities, Page 2), so 225° = 225 * 0.01746 rad ≈ 3.927 rad, or more precisely using the relation n° = (n * π)/180 radians, 225° = (225 * π)/180 radians ≈ 3.927 rad (Source: Trigonometric_Ratios_and_Identities, Page 2).",
+      "retrieved": [
+        [
+          "Trigonometric_Ratios_and_Identities",
+          2,
+          0.528
+        ],
+        [
+          "Trigonometric_Ratios_and_Identities",
+          17,
+          0.448
+        ],
+        [
+          "Trigonometric_Ratios_and_Identities",
+          1,
+          0.433
+        ]
+      ]
+    },
+    {
+      "id": 7,
+      "question": "Convert 7π/12 radians into degrees.",
+      "answerable": true,
+      "failed": false,
+      "hit_top3": true,
+      "faithfulness": 1.0,
+      "refused": false,
+      "answer": "The angle 7π/12 radians is equivalent to 7π/12 * (180/π) = 105 degrees. (Source: Trigonometric_Ratios_and_Identities, Page 2)",
+      "retrieved": [
+        [
+          "Trigonometric_Ratios_and_Identities",
+          2,
+          0.526
+        ],
+        [
+          "Trigonometric_Ratios_and_Identities",
+          17,
+          0.479
+        ],
+        [
+          "Trigonometric_Ratios_and_Identities",
+          4,
+          0.455
+        ]
+      ]
+    },
+    {
+      "id": 8,
+      "question": "Find the quadrant in which the angle –510° lies.",
+      "answerable": true,
+      "failed": false,
+      "hit_top3": true,
+      "faithfulness": 0.5,
+      "refused": false,
+      "answer": "The angle –510° lies in the III quadrant. \nTo determine this, we first convert –510° to a positive angle within 360° by adding 360° repeatedly until we get a positive angle less than 360°: –510° + 2*360° = –510° + 720° = 210° (Source: Trigonometric_Ratios_and_Identities, Page 1). \nSince 180° < 210° < 270°, the angle lies in the III quadrant (Source: Trigonometric_Ratios_and_Identities, Page 1).",
+      "retrieved": [
+        [
+          "Trigonometric_Ratios_and_Identities",
+          1,
+          0.51
+        ],
+        [
+          "Trigonometric_Ratios_and_Identities",
+          2,
+          0.489
+        ],
+        [
+          "Trigonometric_Ratios_and_Identities",
+          17,
+          0.48
+        ]
+      ]
+    },
+    {
+      "id": 9,
+      "question": "If sin θ = 5/13 and θ is acute, find cos θ and tan θ.",
+      "answerable": true,
+      "failed": false,
+      "hit_top3": false,
+      "faithfulness": 1.0,
+      "refused": false,
+      "answer": "The value of cos θ is 12/13 and tan θ is 5/12. \nUsing the identity sin²θ + cos²θ = 1 (Source: Trigonometric_Ratios_and_Identities, Page 11), we can find cos θ: cos²θ = 1 - sin²θ = 1 - (5/13)² = 1 - 25/169 = 144/169, so cos θ = √(144/169) = 12/13. \nThen, using the identity tan θ = sin θ / cos θ (Source: Trigonometric_Ratios_and_Identities, Page 17), we can find tan θ: tan θ = (5/13) / (12/13) = 5/12.",
+      "retrieved": [
+        [
+          "Trigonometric_Ratios_and_Identities",
+          17,
+          0.453
+        ],
+        [
+          "Trigonometric_Ratios_and_Identities",
+          18,
+          0.437
+        ],
+        [
+          "Trigonometric_Ratios_and_Identities",
+          11,
+          0.416
+        ]
+      ]
+    },
+    {
+      "id": 10,
+      "question": "Prove that (1−cosθ)/(sinθ)=cosecθ−cotθ.",
+      "answerable": true,
+      "failed": false,
+      "hit_top3": true,
+      "faithfulness": 1.0,
+      "refused": false,
+      "answer": "The given expression (1−cosθ)/(sinθ) can be simplified to cosecθ−cotθ. \nWe start with the left-hand side of the equation: (1−cosθ)/(sinθ). \nUsing the identity sin²θ + cos²θ = 1 (Source: Trigonometric_Ratios_and_Identities, Page 3), we can rewrite 1 as sin²θ + cos²θ, giving us (sin²θ + cos²θ - cosθ)/(sinθ). \nThis simplifies to (sin²θ - cosθ + cos²θ)/(sinθ), which can be further simplified to sinθ - cosθ + cos²θ/(sinθ). \nNow, we can express cos²θ as 1 - sin²θ (Source: Trigonometric_Ratios_and_Identities, Page 3), giving us sinθ - cosθ + (1 - sin²θ)/(sinθ). \nThis becomes sinθ - cosθ + 1/sinθ - sinθ, which simplifies to 1/sinθ - cosθ. \nUsing the definitions of cosecθ and cotθ (Source: Trigonometric_Ratios_and_Identities, Page 3), we can rewrite 1/sinθ as cosecθ and cosθ/sinθ as cotθ, resulting in cosecθ - cotθ, thus proving the given expression (Source: Trigonometric_Ratios_and_Identities, Page 3).",
+      "retrieved": [
+        [
+          "Trigonometric_Ratios_and_Identities",
+          1,
+          0.43
+        ],
+        [
+          "Trigonometric_Ratios_and_Identities",
+          3,
+          0.426
+        ],
+        [
+          "Trigonometric_Ratios_and_Identities",
+          4,
+          0.399
+        ]
+      ]
+    },
+    {
+      "id": 11,
+      "question": "Simplify sin(180°+θ)+cos(360°−θ).",
+      "answerable": true,
+      "failed": false,
+      "hit_top3": false,
+      "faithfulness": 0.0,
+      "refused": false,
+      "answer": "The simplified expression is -sinθ + cosθ. \nUsing the identity sin(A + B) = sinAcosB + cosAsinB (Source: Trigonometric_Ratios_and_Identities, Page 12) and the fact that sin(180°) = 0, cos(180°) = -1, we can simplify sin(180°+θ) to -sinθ. \nAdditionally, using the identity cos(A - B) = cosAcosB + sinAsinB (Source: Trigonometric_Ratios_and_Identities, Page 12) and the fact that cos(360°) = 1, sin(360°) = 0, we can simplify cos(360°−θ) to cosθ. \nTherefore, sin(180°+θ) + cos(360°−θ) = -sinθ + cosθ.",
+      "retrieved": [
+        [
+          "Trigonometric_Ratios_and_Identities",
+          12,
+          0.544
+        ],
+        [
+          "Trigonometric_Ratios_and_Identities",
+          13,
+          0.516
+        ],
+        [
+          "Trigonometric_Ratios_and_Identities",
+          1,
+          0.48
+        ]
+      ]
+    },
+    {
+      "id": 12,
+      "question": "Evaluate tan 255°.",
+      "answerable": true,
+      "failed": false,
+      "hit_top3": false,
+      "faithfulness": 1.0,
+      "refused": false,
+      "answer": "The value of tan 255° is equal to tan (255° - 180°) = tan 75°, but since tan (75°) = tan (45° + 30°), we cannot directly find the value from the given context, however, we can use the identity tan (n + a) = tan a, and the fact that tan (a) = tan (180° - a) for angles in the third quadrant, thus tan 255° = tan (255° - 180°) = tan 75° = tan (90° - 15°) = cot 15°, but cot 15° cannot be directly calculated from the given context, however, we can express cot 15° in terms of known values using the half-angle formula for cotangent which is not provided, hence we will use the relation tan (75°) = -tan (75° - 180°) = -tan (-105°) = tan 105° = -tan (105° - 180°) = -tan (-75°) = tan 75° = tan (45° + 30°), and since tan (a + b) = (tan a + tan b) / (1 - tan a tan b), then tan 75° = (tan 45° + tan 30°) / (1 - tan 45° tan 30°) = (1 + 1/√3) / (1 - 1/√3) = (1 + 1/√3) / ((√3 - 1)/√3) = (√3 + 1) / (√3 - 1) = ((√3 + 1)(√3 + 1)) / ((√3 - 1)(√3 + 1)) = (3 + 2√3 + 1) / (3 - 1) = (4 + 2√3) / 2 = 2 + √3, hence tan 255° = 2 + √3 (Source: Trigonometric_Ratios_and_Identities, Page 5), and its decimal approximation is 2 + √3 ≈ 2 + 1.73 = 3.73.",
+      "retrieved": [
+        [
+          "Trigonometric_Ratios_and_Identities",
+          18,
+          0.549
+        ],
+        [
+          "Trigonometric_Ratios_and_Identities",
+          17,
+          0.505
+        ],
+        [
+          "Trigonometric_Ratios_and_Identities",
+          5,
+          0.497
+        ]
+      ]
+    },
+    {
+      "id": 13,
+      "question": "Find sin75° using compound-angle formula.",
+      "answerable": true,
+      "failed": false,
+      "hit_top3": true,
+      "faithfulness": 0.0,
+      "refused": false,
+      "answer": "The value of sin75° is approximately 0.97, since sin75° = sin(45° + 30°) and using the compound-angle formula sin(A + B) = sinAcosB + cosAsinB (Source: Trigonometric_Ratios_and_Identities, Page 12), we can calculate it as sin45°cos30° + cos45°sin30° = (√2/2)(√3/2) + (√2/2)(1/2) = (√6 + √2)/4, which is approximately 0.97.",
+      "retrieved": [
+        [
+          "Trigonometric_Ratios_and_Identities",
+          12,
+          0.598
+        ],
+        [
+          "Trigonometric_Ratios_and_Identities",
+          18,
+          0.538
+        ],
+        [
+          "Trigonometric_Ratios_and_Identities",
+          13,
+          0.526
+        ]
+      ]
+    },
+    {
+      "id": 14,
+      "question": "Express cos(2A) in terms of tanA.",
+      "answerable": true,
+      "failed": false,
+      "hit_top3": true,
+      "faithfulness": 0.0,
+      "refused": false,
+      "answer": "The value of cos(2A) in terms of tanA is 1 - 2tan^2A / (1 + tan^2A) = (1 - tan^2A) / (1 + tan^2A), which can also be written as (1 - tan^2A) / (1 + tan^2A) = 1 / (1 + tan^2A) - 2tan^2A / (1 + tan^2A) = cos^2A - 2sin^2A = cos(2A), using the identity from [Source: Trigonometric_Ratios_and_Identities, Page 4].",
+      "retrieved": [
+        [
+          "Trigonometric_Ratios_and_Identities",
+          4,
+          0.588
+        ],
+        [
+          "Trigonometric_Ratios_and_Identities",
+          13,
+          0.575
+        ],
+        [
+          "Trigonometric_Ratios_and_Identities",
+          16,
+          0.569
+        ]
+      ]
+    },
+    {
+      "id": 15,
+      "question": "If secθ+tanθ=5, find secθ−tanθ.",
+      "answerable": true,
+      "failed": false,
+      "hit_top3": false,
+      "faithfulness": 1.0,
+      "refused": false,
+      "answer": "The value of secθ−tanθ is 1/5, since (secθ+tanθ)(secθ−tanθ) = sec²θ - tan²θ = 1 (Source: Trigonometric_Ratios_and_Identities, Page 17), and given secθ+tanθ = 5, we can rearrange to find secθ−tanθ = 1/(secθ+tanθ) = 1/5.",
+      "retrieved": [
+        [
+          "Trigonometric_Ratios_and_Identities",
+          17,
+          0.47
+        ],
+        [
+          "Trigonometric_Ratios_and_Identities",
+          18,
+          0.412
+        ],
+        [
+          "Trigonometric_Ratios_and_Identities",
+          7,
+          0.389
+        ]
+      ]
+    },
+    {
+      "id": 16,
+      "question": "Evaluate sin15° cos15°.",
+      "answerable": true,
+      "failed": false,
+      "hit_top3": true,
+      "faithfulness": 1.0,
+      "refused": false,
+      "answer": "The value of sin15° cos15° is 0.25, or 1/4, since sin15° = cos75° and cos15° = sin75°, and using the identity 2 sinA cosB = sin(A + B) + sin(A - B) (Source: Trigonometric_Ratios_and_Identities, Page 12), we can derive that sin15° cos15° = (1/2) sin30° = (1/2) * (1/2) = 1/4.",
+      "retrieved": [
+        [
+          "Trigonometric_Ratios_and_Identities",
+          12,
+          0.579
+        ],
+        [
+          "Trigonometric_Ratios_and_Identities",
+          18,
+          0.568
+        ],
+        [
+          "Trigonometric_Ratios_and_Identities",
+          17,
+          0.561
+        ]
+      ]
+    },
+    {
+      "id": 17,
+      "question": "If tanθ=3/4 and θ is in III quadrant, find all trigonometric ratios.",
+      "answerable": true,
+      "failed": false,
+      "hit_top3": false,
+      "faithfulness": 1.0,
+      "refused": false,
+      "answer": "The value of sinθ is -3/5, cosθ is -4/5, tanθ is 3/4, cotθ is 4/3, secθ is -5/4, and cosecθ is -5/3. \nUsing the given tanθ = 3/4 and the fact that θ is in the III quadrant, we can find the values of sinθ and cosθ using the identity 1 + tan²θ = sec²θ (Source: Trigonometric_Ratios_and_Identities, Page 4). \nFirst, we find sec²θ = 1 + tan²θ = 1 + (3/4)² = 1 + 9/16 = 25/16. \nSince θ is in the III quadrant, secθ is negative, so secθ = -√(25/16) = -5/4. \nThen, we can find cosθ using the identity secθ = 1/cosθ, which gives us cosθ = 1/secθ = 1/(-5/4) = -4/5. \nNext, we can find sinθ using the identity tanθ = sinθ/cosθ, which gives us sinθ = tanθ * cosθ = (3/4) * (-4/5) = -3/5. \nFinally, we can find the values of cotθ, cosecθ using the identities cotθ = 1/tanθ and cosecθ = 1/sinθ, which give us cotθ = 1/(3/4) = 4/3 and cosecθ = 1/(-3/5) = -5/3 (Source: Trigonometric_Ratios_and_Identities, Page 4).",
+      "retrieved": [
+        [
+          "Trigonometric_Ratios_and_Identities",
+          16,
+          0.442
+        ],
+        [
+          "Trigonometric_Ratios_and_Identities",
+          1,
+          0.438
+        ],
+        [
+          "Trigonometric_Ratios_and_Identities",
+          4,
+          0.434
+        ]
+      ]
+    },
+    {
+      "id": 18,
+      "question": "Prove sin⁴θ+cos⁴θ=1−2sin²θcos²θ.",
+      "answerable": true,
+      "failed": false,
+      "hit_top3": false,
+      "faithfulness": 0.5,
+      "refused": false,
+      "answer": "The equation sin⁴θ + cos⁴θ = 1 - 2sin²θcos²θ can be proven using the identity (a) sin(A + B) . sin(A - B) = sin²A - sin²B = cos²B - cos²A, which can be rearranged to find expressions for sin²θ and cos²θ, but a more direct approach comes from recognizing that sin⁴θ + cos⁴θ is a sum of fourth powers of sine and cosine (Source: Trigonometric_Ratios_and_Identities, Page 12). \n\nTo prove this, recall that sin²θ + cos²θ = 1. Squaring both sides of this equation gives sin⁴θ + 2sin²θcos²θ + cos⁴θ = 1. Rearranging this equation, we get sin⁴θ + cos⁴θ = 1 - 2sin²θcos²θ, which is the desired result. This step utilizes basic algebraic manipulation rather than a specific formula from the provided context, but it is grounded in the fundamental trigonometric identity sin²θ + cos²θ = 1, which is implied throughout the context.",
+      "retrieved": [
+        [
+          "Trigonometric_Ratios_and_Identities",
+          12,
+          0.495
+        ],
+        [
+          "Trigonometric_Ratios_and_Identities",
+          18,
+          0.459
+        ],
+        [
+          "Trigonometric_Ratios_and_Identities",
+          20,
+          0.433
+        ]
+      ]
+    },
+    {
+      "id": 19,
+      "question": "Find the maximum value of 3sinx+4cosx.",
+      "answerable": true,
+      "failed": false,
+      "hit_top3": true,
+      "faithfulness": 1.0,
+      "refused": false,
+      "answer": "The maximum value of 3sinx + 4cosx is 5. \nTo find the maximum value, we can use the method of making a perfect square in sine or cosine, as seen in [Source: Trigonometric_Ratios_and_Identities, Page 23]. \nWe can express 3sinx + 4cosx as √(3² + 4²) (3/√(3² + 4²) sinx + 4/√(3² + 4²) cosx) = 5 (3/5 sinx + 4/5 cosx). \nSince 3/5 and 4/5 can be seen as cosθ and sinθ for some θ, we can further simplify it to 5 sin(x + θ), where θ is the angle satisfying cosθ = 3/5 and sinθ = 4/5. \nThe maximum value of sin(x + θ) is 1, so the maximum value of 5 sin(x + θ) is 5.",
+      "retrieved": [
+        [
+          "Trigonometric_Ratios_and_Identities",
+          24,
+          0.51
+        ],
+        [
+          "Trigonometric_Ratios_and_Identities",
+          23,
+          0.468
+        ],
+        [
+          "Trigonometric_Ratios_and_Identities",
+          21,
+          0.462
+        ]
+      ]
+    },
+    {
+      "id": 20,
+      "question": "Solve sinx=√3/2 for 0≤x≤2π.",
+      "answerable": true,
+      "failed": false,
+      "hit_top3": false,
+      "faithfulness": 0.5,
+      "refused": false,
+      "answer": "The solution to the equation sinx = √3/2 for 0 ≤ x ≤ 2π is x = π/3 and x = 2π - π/3 = 5π/3. (Source: Trigonometric_Ratios_and_Identities, no specific page cited as this is a standard trigonometric value). \n\nSince sin(π/3) = √3/2 and sin(5π/3) = sin(2π - π/3) = -sin(π/3) = -√3/2, but sin(x) = √3/2, we only consider x = π/3 and x = 5π/3, where sin(x) is positive. \n\nNote that these values can be derived from standard angle conversions and trigonometric identities, but the exact method is not explicitly mentioned in the provided context. However, based on standard trigonometric values, we know that sin(π/3) = √3/2, which corresponds to a 60-degree angle in the unit circle.",
+      "retrieved": [
+        [
+          "Trigonometric_Ratios_and_Identities",
+          13,
+          0.464
+        ],
+        [
+          "Trigonometric_Ratios_and_Identities",
+          23,
+          0.426
+        ],
+        [
+          "Trigonometric_Ratios_and_Identities",
+          17,
+          0.421
+        ]
+      ]
+    },
+    {
+      "id": 21,
+      "question": "Evaluate cos(−300°).",
+      "answerable": true,
+      "failed": false,
+      "hit_top3": false,
+      "faithfulness": 1.0,
+      "refused": false,
+      "answer": "The value of cos(−300°) is 1/2. \nUsing the identity cos(C) = cos(-C) (Source: Trigonometric_Ratios_and_Identities, implied by the context of trigonometric functions being even), we can rewrite cos(−300°) as cos(300°). \nThen, using the identity cos(C) = cos(360° - C) (Source: Trigonometric_Ratios_and_Identities, implied by the context of trigonometric functions), we can rewrite cos(300°) as cos(60°), which is 1/2 (Source: Trigonometric_Ratios_and_Identities, Page 17, standard angle values).",
+      "retrieved": [
+        [
+          "Trigonometric_Ratios_and_Identities",
+          17,
+          0.571
+        ],
+        [
+          "Trigonometric_Ratios_and_Identities",
+          13,
+          0.537
+        ],
+        [
+          "Trigonometric_Ratios_and_Identities",
+          16,
+          0.482
+        ]
+      ]
+    },
+    {
+      "id": 22,
+      "question": "Find the period of y=tan(3x−π/6).",
+      "answerable": true,
+      "failed": false,
+      "hit_top3": false,
+      "faithfulness": 1.0,
+      "refused": false,
+      "answer": "The period of y = tan(3x - π/6) is (π/3) * (2/π) = 2/3, since the standard period of tan(x) is π (Source: Trigonometric_Ratios_and_Identities, Page 5), and the coefficient of x is 3, so the period is π/3, but we also need to consider the horizontal shift, however, the period remains the same (Source: Trigonometric_Ratios_and_Identities, Page 6).",
+      "retrieved": [
+        [
+          "Trigonometric_Ratios_and_Identities",
+          17,
+          0.427
+        ],
+        [
+          "Trigonometric_Ratios_and_Identities",
+          5,
+          0.42
+        ],
+        [
+          "Trigonometric_Ratios_and_Identities",
+          6,
+          0.393
+        ]
+      ]
+    },
+    {
+      "id": 23,
+      "question": "Show that tan²θ−sin²θ=sin⁴θ sec²θ.",
+      "answerable": true,
+      "failed": false,
+      "hit_top3": true,
+      "faithfulness": 0.0,
+      "refused": false,
+      "answer": "The given expression tan²θ - sin²θ can be rewritten using the identity tan²θ + 1 = sec²θ (Source: Trigonometric_Ratios_and_Identities, Page 3), which can be rearranged to tan²θ = sec²θ - 1. Substituting this into the original expression yields sec²θ - 1 - sin²θ = sec²θ - (sin²θ + 1) = sec²θ - (1 + sin²θ - 1) = sec²θ - (1 - cos²θ) = sec²θ - sin²θ, since sin²θ + cos²θ = 1 (Source: Trigonometric_Ratios_and_Identities, Page 3). Then, factoring out sin²θ gives sec²θ - sin²θ = sin²θ (sec²θ - 1/sin²θ) = sin²θ (sec²θ - cosec²θ + 1) = sin⁴θ sec²θ, since 1 - cos²θ = sin²θ and sec²θ = 1/cos²θ, and cosec²θ = 1/sin²θ (Source: Trigonometric_Ratios_and_Identities, Page 3). Therefore, tan²θ - sin²θ = sin⁴θ sec²θ.",
+      "retrieved": [
+        [
+          "Trigonometric_Ratios_and_Identities",
+          12,
+          0.408
+        ],
+        [
+          "Trigonometric_Ratios_and_Identities",
+          18,
+          0.391
+        ],
+        [
+          "Trigonometric_Ratios_and_Identities",
+          3,
+          0.364
+        ]
+      ]
+    },
+    {
+      "id": 24,
+      "question": "Evaluate Σ: cos20°+cos40°+cos140°+cos160°.",
+      "answerable": true,
+      "failed": false,
+      "hit_top3": false,
+      "faithfulness": 1.0,
+      "refused": false,
+      "answer": "The value of Σ: cos20°+cos40°+cos140°+cos160° is 0. \nUsing the identity from [Source: Trigonometric_Ratios_and_Identities, Page 13], we can pair the terms: \ncos20° + cos160° = 2cos(20°+160°)/2 * cos(20°-160°)/2 = 2cos90° * cos(-70°) = 0, \nand cos40° + cos140° = 2cos(40°+140°)/2 * cos(40°-140°)/2 = 2cos90° * cos(-50°) = 0. \nTherefore, the sum is 0 + 0 = 0.",
+      "retrieved": [
+        [
+          "Trigonometric_Ratios_and_Identities",
+          13,
+          0.579
+        ],
+        [
+          "Trigonometric_Ratios_and_Identities",
+          17,
+          0.527
+        ],
+        [
+          "Trigonometric_Ratios_and_Identities",
+          18,
+          0.491
+        ]
+      ]
+    },
+    {
+      "id": 25,
+      "question": "A point on the unit circle has y=−4/5 in quadrant IV. Find all trigonometric ratios.",
+      "answerable": true,
+      "failed": false,
+      "hit_top3": false,
+      "faithfulness": 1.0,
+      "refused": false,
+      "answer": "The point has y = -4/5 in quadrant IV, so sin(θ) = -4/5, and since it's on the unit circle, we can use the Pythagorean identity to find cos(θ) = √(1 - sin^2(θ)) = √(1 - (-4/5)^2) = √(1 - 16/25) = √(9/25) = 3/5 (Source: Trigonometric_Ratios_and_Identities, Page 6). \nThen, tan(θ) = sin(θ) / cos(θ) = (-4/5) / (3/5) = -4/3, cot(θ) = 1 / tan(θ) = -3/4, sec(θ) = 1 / cos(θ) = 5/3, and cosec(θ) = 1 / sin(θ) = -5/4. \nTherefore, the trigonometric ratios are sin(θ) = -4/5, cos(θ) = 3/5, tan(θ) = -4/3, cot(θ) = -3/4, sec(θ) = 5/3, and cosec(θ) = -5/4.",
+      "retrieved": [
+        [
+          "Trigonometric_Ratios_and_Identities",
+          6,
+          0.48
+        ],
+        [
+          "Trigonometric_Ratios_and_Identities",
+          17,
+          0.462
+        ],
+        [
+          "Trigonometric_Ratios_and_Identities",
+          18,
+          0.449
+        ]
+      ]
+    },
+    {
+      "id": 26,
+      "question": "Solve x²−7x+10=0.",
+      "answerable": true,
+      "failed": false,
+      "hit_top3": true,
+      "faithfulness": 1.0,
+      "refused": false,
+      "answer": "The equation x²−7x+10=0 has roots that can be found using the relation between roots and coefficients of a quadratic equation, where the sum of the roots (a + B) equals -b/a and the product of the roots equals c/a (Source: Quadratic_Equations, Page 2). \nGiven the equation x² - 7x + 10 = 0, we can identify a = 1, b = -7, and c = 10. \nUsing the formula for the sum and product of roots: a + B = -(-7)/1 = 7 and a*B = 10/1 = 10. \nWe can then solve for the roots using these relationships, but a more direct approach is to use the quadratic formula or factorization if applicable. \nHowever, since this specific method is not directly outlined in the provided context, we look for an applicable method within the given context. \nThe equation can be factored or solved using the sum and product of roots, but direct factorization seems the most straightforward approach given the context. \nThe equation x² - 7x + 10 = 0 can be factored into (x - 2)(x - 5) = 0, which gives the roots x = 2 and x = 5. \nThus, the roots of the equation are 2 and 5.",
+      "retrieved": [
+        [
+          "Quadratic_Equations",
+          1,
+          0.403
+        ],
+        [
+          "Quadratic_Equations",
+          2,
+          0.345
+        ],
+        [
+          "Quadratic_Equations",
+          6,
+          0.323
+        ]
+      ]
+    },
+    {
+      "id": 27,
+      "question": "Find the quadratic equation whose roots are 3 and −5.",
+      "answerable": true,
+      "failed": false,
+      "hit_top3": true,
+      "faithfulness": 1.0,
+      "refused": false,
+      "answer": "The quadratic equation whose roots are 3 and −5 is x² - (3 + (-5))x + (3 * (-5)) = 0, which simplifies to x² + 2x - 15 = 0 (Source: Quadratic_Equations, Page 2).",
+      "retrieved": [
+        [
+          "Quadratic_Equations",
+          5,
+          0.483
+        ],
+        [
+          "Quadratic_Equations",
+          1,
+          0.454
+        ],
+        [
+          "Quadratic_Equations",
+          2,
+          0.423
+        ]
+      ]
+    },
+    {
+      "id": 28,
+      "question": "If roots are α,β with α+β=8 and αβ=12, form the equation.",
+      "answerable": true,
+      "failed": false,
+      "hit_top3": true,
+      "faithfulness": 1.0,
+      "refused": false,
+      "answer": "The quadratic equation with roots α and β is x² - (α + β)x + αβ = 0, which simplifies to x² - 8x + 12 = 0 (Source: Quadratic_Equations, Page 2).",
+      "retrieved": [
+        [
+          "Quadratic_Equations",
+          12,
+          0.476
+        ],
+        [
+          "Quadratic_Equations",
+          1,
+          0.454
+        ],
+        [
+          "Quadratic_Equations",
+          2,
+          0.442
+        ]
+      ]
+    },
+    {
+      "id": 29,
+      "question": "Determine the nature of roots of 2x²+4x+5=0.",
+      "answerable": true,
+      "failed": false,
+      "hit_top3": true,
+      "faithfulness": 1.0,
+      "refused": false,
+      "answer": "The equation 2x²+4x+5=0 has no real roots, as the discriminant D = b² - 4ac = 4² - 4*2*5 = 16 - 40 = -24 < 0, (Source: Quadratic_Equations, Page 1).",
+      "retrieved": [
+        [
+          "Quadratic_Equations",
+          5,
+          0.511
+        ],
+        [
+          "Quadratic_Equations",
+          2,
+          0.493
+        ],
+        [
+          "Quadratic_Equations",
+          1,
+          0.463
+        ]
+      ]
+    },
+    {
+      "id": 30,
+      "question": "If one root of x²−5x+k=0 is 2, find k.",
+      "answerable": true,
+      "failed": false,
+      "hit_top3": true,
+      "faithfulness": 1.0,
+      "refused": false,
+      "answer": "The value of k is 2, because if one root of the equation x² - 5x + k = 0 is 2, then we can use the fact that if a is a root of the quadratic equation ax² + bx + c = 0, then a satisfies the equation, so 2² - 5(2) + k = 0 (Source: Quadratic_Equations, Page 1), which simplifies to 4 - 10 + k = 0, so k = 6.",
+      "retrieved": [
+        [
+          "Quadratic_Equations",
+          5,
+          0.477
+        ],
+        [
+          "Quadratic_Equations",
+          2,
+          0.463
+        ],
+        [
+          "Quadratic_Equations",
+          1,
+          0.447
+        ]
+      ]
+    },
+    {
+      "id": 31,
+      "question": "Find k so that x²+kx+9=0 has equal roots.",
+      "answerable": true,
+      "failed": false,
+      "hit_top3": true,
+      "faithfulness": 0.0,
+      "refused": false,
+      "answer": "The value of k is 0, since for a quadratic equation ax² + bx + c = 0 to have equal roots, its discriminant b² - 4ac must be equal to 0 (Source: Quadratic_Equations, Page 2). For the given equation x² + kx + 9 = 0, a = 1, b = k, and c = 9. Setting the discriminant equal to 0 gives k² - 4(1)(9) = 0, which simplifies to k² - 36 = 0. Solving for k yields k² = 36, and taking the square root of both sides gives k = ±6. However, since the equation has equal roots, the sum of the roots is also equal to 0 (Source: Quadratic_Equations, Page 2), which implies that k = 0 is not correct, instead we use the fact that for equal roots, b² - 4ac = 0, hence k² - 4(1)(9) = 0, k² = 36, k = ±6. But for equal roots, we also know that the sum of the roots is -b/a, hence -k/1 = -k = 0 is not possible for k = ±6, unless the equation is of the form x² + 0x + 9 = 0, which does not have real roots, or k = ±6 and the roots are complex and equal, but in this case, we are looking for real roots, hence we use the fact that b² - 4ac = 0, and we get k = ±6, but since the roots are real and equal, we must have k = ±6, but the sum of the roots is -k, hence -k = 0, which is not possible for k = ±6, unless we consider the case when the roots are not real, in that case we cannot find a real k, but if we consider the case when the roots are real, then we must have k = 0, but this will not give us equal roots, unless we have a = 0, which is not the case here, hence we must have k = ±6, but since the sum of the roots is -k, and the roots are equal, we must have -k = 0, which is not possible for k = ±6, unless the roots are not real, hence we must consider the case when the roots are real and equal, and in this case, we have k = ±6, but since the sum of the roots is -k, we must have -k = 0, which is not possible, unless k = 0, but this will not give us equal roots, unless a = 0, which is not the case here, hence we must have k =",
+      "retrieved": [
+        [
+          "Quadratic_Equations",
+          2,
+          0.429
+        ],
+        [
+          "Quadratic_Equations",
+          5,
+          0.416
+        ],
+        [
+          "Quadratic_Equations",
+          1,
+          0.403
+        ]
+      ]
+    },
+    {
+      "id": 32,
+      "question": "If α,β are roots of x²−6x+5=0, find α²+β².",
+      "answerable": true,
+      "failed": false,
+      "hit_top3": true,
+      "faithfulness": 1.0,
+      "refused": false,
+      "answer": "The value of α² + β² is 22. \nTo find α² + β², we can use the relation between roots and coefficients of a quadratic equation (Source: Quadratic_Equations, Page 2). \nGiven the equation x² - 6x + 5 = 0, we know that α + β = 6 and αβ = 5 (Source: Quadratic_Equations, Page 2). \nSquaring the equation α + β = 6, we get α² + 2αβ + β² = 36. \nSubstituting αβ = 5 into this equation, we get α² + 2(5) + β² = 36, which simplifies to α² + β² = 36 - 10 = 26 (Source: Quadratic_Equations, Page 2).",
+      "retrieved": [
+        [
+          "Quadratic_Equations",
+          5,
+          0.498
+        ],
+        [
+          "Quadratic_Equations",
+          1,
+          0.426
+        ],
+        [
+          "Quadratic_Equations",
+          2,
+          0.419
+        ]
+      ]
+    },
+    {
+      "id": 33,
+      "question": "Find equation whose roots are reciprocals of roots of 2x²−3x−2=0.",
+      "answerable": true,
+      "failed": false,
+      "hit_top3": false,
+      "faithfulness": 1.0,
+      "refused": false,
+      "answer": "The equation whose roots are reciprocals of the roots of 2x² - 3x - 2 = 0 is 2y² - 3y - 2 = 0, which in terms of x is 2(x^(-1))² - 3(x^(-1)) - 2 = 0, simplifying to 2 - 3x - 2x² = 0, or 2x² - 3x - 2 = 0 becomes -2x² + 3x + 2 = 0 when the variable is replaced by its reciprocal, but to get the correct form we should replace x with 1/x, so 2(1/x)² - 3(1/x) - 2 = 0, then multiply through by x² to get 2 - 3x - 2x² = 0, which simplifies to 2x² + 3x - 2 = 0 is incorrect, the correct transformation is 2(1/x)² - 3(1/x) - 2 = 0, then 2/x² - 3/x - 2 = 0, multiply by x² to get 2 - 3x - 2x² = 0, which is equivalent to -2x² + 3x + 2 = 0, but since we want the equation in standard form, ax² + bx + c = 0, the equation becomes 2x² - 3x - 2 = 0, which is the original equation, so to get the equation whose roots are the reciprocals, we should use the fact that if a, b are the roots of the equation, then 1/a, 1/b are the roots of the equation whose roots are the reciprocals, so we should find the equation using the relation between roots and coefficients, given by (Source: Quadratic_Equations, Page 2), the sum of the roots is -b/a and the product of the roots is c/a, for the equation 2x² - 3x - 2 = 0, the sum of the roots is 3/2 and the product of the roots is -1, so for the equation whose roots are the reciprocals, the sum of the roots is -1/(3/2) = -2/3 and the product of the roots is 1/(-1) = -1, so using the relation between roots and coefficients (Source: Quadratic_Equations, Page 2), we get the equation x² + (2/3)x - 1 = 0, but the coefficient of x² should be 2 to match the original equation, so we multiply the equation by 2 to get 2x² + (4/3)x - 2 = ",
+      "retrieved": [
+        [
+          "Quadratic_Equations",
+          2,
+          0.537
+        ],
+        [
+          "Quadratic_Equations",
+          1,
+          0.517
+        ],
+        [
+          "Quadratic_Equations",
+          4,
+          0.44
+        ]
+      ]
+    },
+    {
+      "id": 34,
+      "question": "Find minimum value of x²−8x+20.",
+      "answerable": true,
+      "failed": false,
+      "hit_top3": false,
+      "faithfulness": 1.0,
+      "refused": false,
+      "answer": "The minimum value of x²−8x+20 is  -12, when x = 4. \nTo find the minimum value, we can complete the square: x² - 8x + 20 = (x - 4)² + 20 - 16 = (x - 4)² + 4. \nSince (x - 4)² ≥ 0 for all real x, the minimum value occurs when (x - 4)² = 0, i.e., x = 4 (Source: Quadratic_Equations, Page 1).",
+      "retrieved": [
+        [
+          "Quadratic_Equations",
+          9,
+          0.403
+        ],
+        [
+          "Quadratic_Equations",
+          1,
+          0.399
+        ],
+        [
+          "Trigonometric_Ratios_and_Identities",
+          24,
+          0.391
+        ]
+      ]
+    },
+    {
+      "id": 35,
+      "question": "Find maximum value of −2x²+12x−5.",
+      "answerable": true,
+      "failed": false,
+      "hit_top3": true,
+      "faithfulness": 1.0,
+      "refused": false,
+      "answer": "The maximum value of −2x² + 12x - 5 is 31, which can be found by completing the square or using the vertex formula (Source: Quadratic_Equations, Page 7). \n\nTo find the maximum value, we can complete the square: −2x² + 12x - 5 = −2(x² - 6x) - 5 = −2(x² - 6x + 9) - 5 + 18 = −2(x - 3)² + 13. Since −2(x - 3)² is always non-positive, the maximum value occurs when x = 3, and the maximum value is 13 (Source: Quadratic_Equations, Page 7). Alternatively, using the vertex formula, the x-coordinate of the vertex is given by x = -b / 2a = -12 / (2 * -2) = 3, and substituting this value back into the equation yields the maximum value of 13 (Source: Quadratic_Equations, Page 7).",
+      "retrieved": [
+        [
+          "Quadratic_Equations",
+          9,
+          0.447
+        ],
+        [
+          "Quadratic_Equations",
+          7,
+          0.391
+        ],
+        [
+          "Trigonometric_Ratios_and_Identities",
+          23,
+          0.39
+        ]
+      ]
+    },
+    {
+      "id": 36,
+      "question": "Solve inequality x²−5x+6>0.",
+      "answerable": true,
+      "failed": false,
+      "hit_top3": true,
+      "faithfulness": 0.0,
+      "refused": false,
+      "answer": "The solution to the inequality x² - 5x + 6 > 0 is x ∈ (-∞, 2) ∪ (3, ∞), which can be found by factoring the quadratic expression into (x - 2)(x - 3) > 0 and using the concept of sign charts (Source: Quadratic_Equations, Page 1).",
+      "retrieved": [
+        [
+          "Quadratic_Equations",
+          7,
+          0.48
+        ],
+        [
+          "Quadratic_Equations",
+          1,
+          0.412
+        ],
+        [
+          "Quadratic_Equations",
+          8,
+          0.353
+        ]
+      ]
+    },
+    {
+      "id": 37,
+      "question": "Solve |x²−4|<5.",
+      "answerable": true,
+      "failed": false,
+      "hit_top3": true,
+      "faithfulness": 1.0,
+      "refused": false,
+      "answer": "The solution to the inequality |x²−4|<5 is (-3, -1) ∪ (1, 3) and also includes the values -1 and 1, and also the values between -1 and 1, and between -3 and -1 and 1 and 3, but not -3 and 3,  because |x| <a => x ∈ [-a, a] (Source: Quadratic_Equations, Page 8). \nTo solve |x²−4|<5, we first use the property |x| <a => x ∈ [-a, a], so |x²−4| <5 => -5 < x² -4 < 5. \nThen, we add 4 to all parts of the inequality to get -1 < x² < 9. \nNow, we take the square root of all parts of the inequality. \nSince the square root of a number can be both positive and negative, we get -3 < x < -1 and -1 < x < 1 and 1 < x < 3, or x ∈ (-3, -1) ∪ (-1, 1) ∪ (1, 3) (Source: Quadratic_Equations, Page 8).",
+      "retrieved": [
+        [
+          "Quadratic_Equations",
+          7,
+          0.426
+        ],
+        [
+          "Quadratic_Equations",
+          1,
+          0.356
+        ],
+        [
+          "Quadratic_Equations",
+          8,
+          0.336
+        ]
+      ]
+    },
+    {
+      "id": 38,
+      "question": "If α,β are roots of x²+px+6=0 and α²+β²=13, find p.",
+      "answerable": true,
+      "failed": false,
+      "hit_top3": true,
+      "faithfulness": 0.5,
+      "refused": false,
+      "answer": "The value of p is -5, since we know that α + β = -p and αβ = 6 (Source: Quadratic_Equations, Page 2), and we are given that α² + β² = 13. Using the identity (α + β)² = α² + β² + 2αβ, we can substitute the given values to get (-p)² = 13 + 2(6), which simplifies to p² = 25, and since α + β = -p, we have -p = ±5. However, since α² + β² = 13 and αβ = 6, we can determine that α and β must be real roots, and the equation x² + px + 6 = 0 has real roots when p² - 4(1)(6) ≥ 0, which is true for p = ±5. Given that α² + β² = (α + β)² - 2αβ, we have 13 = (-p)² - 2(6), which gives us 13 = p² - 12, and thus p² = 25, so p = ±5. But since α + β = -p, we can use the fact that α² + β² = (α + β)² - 2αβ to determine the sign of p. Substituting the given values, we get 13 = (-p)² - 2(6), which simplifies to 13 = p² - 12. Solving for p², we get p² = 25, and taking the square root of both sides, we get p = ±5. To determine the sign of p, we can use the fact that α + β = -p, so -p = α + β. Since α² + β² = 13 and αβ = 6, we know that (α + β)² = α² + β² + 2αβ = 13 + 2(6) = 25, which implies that α + β = ±5. Since -p = α + β, we have -p = ±5, which gives us p = ∓5. Therefore, p = -5 (Source: Quadratic_Equations, Page 2).",
+      "retrieved": [
+        [
+          "Quadratic_Equations",
+          5,
+          0.493
+        ],
+        [
+          "Quadratic_Equations",
+          3,
+          0.376
+        ],
+        [
+          "Quadratic_Equations",
+          2,
+          0.36
+        ]
+      ]
+    },
+    {
+      "id": 39,
+      "question": "Find remainder when f(x)=x³−2x+5 is divided by x−2.",
+      "answerable": true,
+      "failed": false,
+      "hit_top3": false,
+      "faithfulness": 1.0,
+      "refused": false,
+      "answer": "The remainder when f(x) = x³ - 2x + 5 is divided by x - 2 is f(2) = 2³ - 2*2 + 5 = 8 - 4 + 5 = 9, using the concept of remainder theorem (Source: Quadratic_Equations, Page 1), which states that the remainder of a polynomial f(x) divided by x - a is f(a).",
+      "retrieved": [
+        [
+          "Quadratic_Equations",
+          5,
+          0.293
+        ],
+        [
+          "Quadratic_Equations",
+          9,
+          0.265
+        ],
+        [
+          "Quadratic_Equations",
+          1,
+          0.237
+        ]
+      ]
+    },
+    {
+      "id": 40,
+      "question": "Find condition for ax²+bx+c to be always positive.",
+      "answerable": true,
+      "failed": false,
+      "hit_top3": false,
+      "faithfulness": 0.5,
+      "refused": false,
+      "answer": "The quadratic equation ax² + bx + c = 0 is always positive when it has no real roots, which means its discriminant (b² - 4ac) is less than 0, and a > 0 (Source: Quadratic_Equations, Page 1). \n\nTo ensure the equation is always positive, we need a > 0 and the discriminant b² - 4ac < 0. \n\nThis condition ensures the parabola opens upwards and lies entirely above the x-axis, making ax² + bx + c > 0 for all real x.",
+      "retrieved": [
+        [
+          "Quadratic_Equations",
+          1,
+          0.497
+        ],
+        [
+          "Quadratic_Equations",
+          2,
+          0.491
+        ],
+        [
+          "Quadratic_Equations",
+          4,
+          0.466
+        ]
+      ]
+    },
+    {
+      "id": 41,
+      "question": "Find quadratic equation whose roots are α+1 and β+1 if α,β are roots of x²−4x+1=0.",
+      "answerable": true,
+      "failed": false,
+      "hit_top3": false,
+      "faithfulness": 1.0,
+      "refused": false,
+      "answer": "The quadratic equation whose roots are α+1 and β+1 is x² - 2x - 3 = 0. \nTo find this equation, we first note that α and β are the roots of the equation x² - 4x + 1 = 0 (Source: Quadratic_Equations, Page 1). \nUsing the relation between roots and coefficients of a quadratic equation, we know that α + β = 4 and αβ = 1 (Source: Quadratic_Equations, Page 2). \nNow, the sum of the new roots is (α+1) + (β+1) = α + β + 2 = 4 + 2 = 6, and the product of the new roots is (α+1)(β+1) = αβ + α + β + 1 = 1 + 4 + 1 = 6 (Source: Quadratic_Equations, Page 2). \nTherefore, the quadratic equation whose roots are α+1 and β+1 is x² - (sum of roots)x + (product of roots) = 0, which becomes x² - 6x + 6 = 0, but since the original sum of roots was 4 and we added 1 to each root, we should have added 2 to the sum of roots and 1 to the product of roots in the equation x² - (4+2)x + (1+4+1) = 0, however the correct way to do it is x² - (sum of roots -2)x + (product of roots - sum of roots + 1) = 0, hence x² - (4+2)x + (1+4+1) is incorrect. \nInstead, we should use x² - (α + β + 2)x + (αβ + α + β + 1) = x² - (4 + 2)x + (1 + 4 + 1) is also incorrect. \nThe correct way is to use the fact that if α and β are roots of x² - 4x + 1, then α + 1 and β + 1 are roots of x² - (α + β + 2)x + (αβ + α + β + 1), which simplifies to x² - (4 + 2)x + (1 + 4 + 1), however the correct formula is x² - (sum of roots + 2)x + (product of roots + sum of roots + 1) is incorrect, instead we should use the sum and product of the new roots. \nThe sum of the new roots is (α + 1) + (β + 1) = α + β + 2 = 4 + 2 = 6 and the product of the new roots is (α +",
+      "retrieved": [
+        [
+          "Quadratic_Equations",
+          1,
+          0.472
+        ],
+        [
+          "Quadratic_Equations",
+          5,
+          0.444
+        ],
+        [
+          "Quadratic_Equations",
+          2,
+          0.442
+        ]
+      ]
+    },
+    {
+      "id": 42,
+      "question": "Find value of m so x²−2mx+m+5=0 has no real roots.",
+      "answerable": true,
+      "failed": false,
+      "hit_top3": true,
+      "faithfulness": 0.0,
+      "refused": false,
+      "answer": "The value of m is such that the discriminant of the quadratic equation x² - 2mx + m + 5 = 0 is less than 0, so m² - 4(1)(m + 5) < 0, which simplifies to m² - 4m - 20 < 0, therefore m must satisfy (m + 2)(m - 10) < 0, giving -2 < m < 10, but for the equation to have no real roots, the parabola must open upwards, which is the case when a > 0 (Source: Quadratic_Equations, Page 5), and since a = 1 in this equation, the parabola opens upwards, so the condition for no real roots is met when -2 < m < 10, but since the question asks for a specific value of m, we consider the case when the discriminant is equal to 0, which gives m² - 4m - 20 = 0, solving this quadratic equation gives m = -2 or m = 10, but for the equation to have no real roots, we need the discriminant to be less than 0, so we consider values between -2 and 10, for example, m = 3 (Source: Quadratic_Equations, Page 2).",
+      "retrieved": [
+        [
+          "Quadratic_Equations",
+          2,
+          0.459
+        ],
+        [
+          "Quadratic_Equations",
+          5,
+          0.438
+        ],
+        [
+          "Quadratic_Equations",
+          11,
+          0.425
+        ]
+      ]
+    },
+    {
+      "id": 43,
+      "question": "If equations x²+3x+k=0 and x²+kx+3=0 have a common root, find k.",
+      "answerable": true,
+      "failed": false,
+      "hit_top3": true,
+      "faithfulness": 0.0,
+      "refused": false,
+      "answer": "The value of k for which the equations x²+3x+k=0 and x²+kx+3=0 have a common root is k = -3 or k = 1, (Source: Quadratic_Equations, Page 4). \n\nTo find the value of k, we use the condition for common roots: \na₁b₂ - a₂b₁ = a₁c₂ - a₂c₁, \nwhere a₁ = 1, b₁ = 3, c₁ = k, a₂ = 1, b₂ = k, and c₂ = 3. \nSubstituting these values into the equation, we get \n1*k - 1*3 = 1*3 - 1*k, \nwhich simplifies to \nk - 3 = 3 - k. \nRearranging the equation, we get \n2k = 6, \nso k = 3, but this is not the only solution. \nUsing the condition a₁c₂ - a₂c₁ = a₁b₂ - a₂b₁, we also have \n1*3 - 1*k = 1*k - 1*3, \nwhich simplifies to \n3 - k = k - 3, \nso 2k = 6, and k = 3. However, we also have \na₁b₂ - a₂b₁ = a₂c₁ - a₁c₂, \nwhich gives \n1*k - 1*3 = 1*k - 1*3, \nand this equation is true for all values of k. \nBut we also have \na₁c₂ - a₂c₁ = a₁b₂ - a₂b₁, \nwhich gives \n1*3 - 1*k = 1*k - 1*3, \nso 3 - k = k - 3, \nand 2k = 6, so k = 3. \nHowever, we made an error in assuming that the only solution is k = 3. \nLet's re-evaluate the equation \nk - 3 = 3 - k. \nThis equation can be rewritten as \nk + k = 3 + 3, \nso 2k = 6, and k = 3. \nBut we also have \nk - 3 = -(k - 3), \nso k - 3 = -k + 3, \nand 2k = 6, so k = 3. \nHowever, this equation can also be written as \nk - 3 = -1*(k - 3), \nso k - 3 = -k + 3, \nand 2k = 0, so k = 0 is not a solution, but k = -3 or k = 1 are solutions to the equation",
+      "retrieved": [
+        [
+          "Quadratic_Equations",
+          4,
+          0.501
+        ],
+        [
+          "Quadratic_Equations",
+          5,
+          0.478
+        ],
+        [
+          "Quadratic_Equations",
+          1,
+          0.38
+        ]
+      ]
+    },
+    {
+      "id": 44,
+      "question": "Sketch the graph of y=x²−4x+3 and identify vertex and x-intercepts.",
+      "answerable": true,
+      "failed": false,
+      "hit_top3": true,
+      "faithfulness": 0.3333333333333333,
+      "refused": false,
+      "answer": "The graph of y = x² - 4x + 3 is a parabola that opens upwards since the coefficient of x² is positive (Source: Quadratic_Equations, Page 6). To find the vertex, we use the formula x = -b / 2a, where a = 1 and b = -4, so x = -(-4) / (2*1) = 4 / 2 = 2 (Source: Quadratic_Equations, Page 1). The y-coordinate of the vertex is y = (2)² - 4(2) + 3 = 4 - 8 + 3 = -1. Therefore, the vertex is at (2, -1). To find the x-intercepts, we set y = 0 and solve for x: x² - 4x + 3 = 0. Using the quadratic formula, x = (-b ± √(b² - 4ac)) / 2a, where a = 1, b = -4, and c = 3, we get x = (4 ± √((-4)² - 4*1*3)) / 2*1 = (4 ± √(16 - 12)) / 2 = (4 ± √4) / 2 = (4 ± 2) / 2, so x = (4 + 2) / 2 = 3 or x = (4 - 2) / 2 = 1 (Source: Quadratic_Equations, Page 1). Therefore, the x-intercepts are at (1, 0) and (3, 0).",
+      "retrieved": [
+        [
+          "Quadratic_Equations",
+          6,
+          0.467
+        ],
+        [
+          "Quadratic_Equations",
+          1,
+          0.39
+        ],
+        [
+          "Quadratic_Equations",
+          7,
+          0.388
+        ]
+      ]
+    },
+    {
+      "id": 45,
+      "question": "If roots of x²−9x+20=0 are α,β, compute α³+β³.",
+      "answerable": true,
+      "failed": false,
+      "hit_top3": true,
+      "faithfulness": 1.0,
+      "refused": false,
+      "answer": "The value of α³ + β³ is 459. \nTo find this, we first need to find the sum and product of the roots of the given quadratic equation x² - 9x + 20 = 0. \nUsing the relation between roots and coefficients of a quadratic equation (Source: Quadratic_Equations, Page 2), we know that the sum of the roots α + β = -(-9) = 9 and the product of the roots αβ = 20. \nWe can use the identity α³ + β³ = (α + β)³ - 3αβ(α + β) (Source: Quadratic_Equations, Page 5, although not explicitly stated, this formula can be derived from the given relations between roots and coefficients). \nSubstituting the values, we get α³ + β³ = (9)³ - 3*20*9 = 729 - 540 = 189. \nHowever, we made an error in calculation. Let's redo it: α³ + β³ = (α + β)³ - 3αβ(α + β) = (9)³ - 3*20*9 = 729 - 540 = 189. \nWe made another mistake. The correct calculation is: α³ + β³ = (α + β)³ - 3αβ(α + β) = (9)³ - 3*20*9 = 729 - 540. \nLet's calculate (9)³ first: (9)³ = 9*9*9 = 729. \nNow, let's calculate 3*20*9: 3*20*9 = 540. \nSo, α³ + β³ = 729 - 540 = 189. \nWe did it again. The equation x² - 9x + 20 = 0 can be factored as (x - 4)(x - 5) = 0, so α = 4 and β = 5. \nThen, α³ + β³ = 4³ + 5³ = 64 + 125 = 189. \nNo, that is not correct. \n4³ = 64 and 5³ = 125, so 4³ + 5³ = 64 + 125 = 189. \nThat is still incorrect. \nLet's recheck: 4³ = 4*4*4 = 64 and 5³ = 5*5*5 = 125. \nThen, α³ + β³ = 64 + 125 = 189. \nThat is the wrong answer. \nWe previously established that α + β = 9 and αβ = 20. \nUsing the correct formula, α³ + β³ = (α + β)³ - 3αβ(",
+      "retrieved": [
+        [
+          "Quadratic_Equations",
+          5,
+          0.452
+        ],
+        [
+          "Quadratic_Equations",
+          2,
+          0.401
+        ],
+        [
+          "Quadratic_Equations",
+          1,
+          0.398
+        ]
+      ]
+    },
+    {
+      "id": 46,
+      "question": "Evaluate cos 130 degree.",
+      "answerable": true,
+      "failed": false,
+      "hit_top3": false,
+      "faithfulness": 1.0,
+      "refused": false,
+      "answer": "The value of cos 130 degree is -cos 50 degree, and since cos 50 degree is not a standard angle, we can reduce it as far as a known identity allows, but we must also state its decimal approximation, which is approximately -0.64 (Source: Trigonometric_Ratios_and_Identities, Page 17).",
+      "retrieved": [
+        [
+          "Trigonometric_Ratios_and_Identities",
+          17,
+          0.535
+        ],
+        [
+          "Trigonometric_Ratios_and_Identities",
+          13,
+          0.522
+        ],
+        [
+          "Trigonometric_Ratios_and_Identities",
+          18,
+          0.519
+        ]
+      ]
+    },
+    {
+      "id": 47,
+      "question": "Evaluate cos 100 degrees.",
+      "answerable": true,
+      "failed": false,
+      "hit_top3": true,
+      "faithfulness": 1.0,
+      "refused": false,
+      "answer": "The value of cos 100 degrees can be found using the identity for cosine of an angle in the second quadrant, where cos(180° - θ) = -cosθ (Source: Trigonometric_Ratios_and_Identities, Page 7). \nWe can rewrite cos 100 degrees as cos(180° - 80°), which equals -cos 80°. \nHowever, we cannot directly find the value of cos 80° from the given context. \nWe can express cos 80° using the identity cos C = cos (90° - D) = sin D, where C = 80° and D = 10°, but this is not directly applicable here.\nInstead, we can use the fact that cos(360° - θ) = cosθ (Source: Trigonometric_Ratios_and_Identities, Page 7), but this also doesn't help us find the value directly.\nSince we cannot find an exact value using the given identities, we must reduce it as far as a known identity allows and then provide a decimal approximation. \nUsing the identity cos C = cos (90° - D) doesn't apply here, but we can use the angle sum and difference identities to try and simplify, however, the context does not provide a direct path to the value of cos 100 degrees.\nGiven the limitations, cos 100 degrees = -cos 80 degrees, and since we cannot simplify further using the provided identities, we must use the fact that cos 80 degrees is approximately equal to 0.17 (this value is not derived from the context but is a known value), thus cos 100 degrees is approximately -0.17. \n\nThe final answer is -0.17.",
+      "retrieved": [
+        [
+          "Trigonometric_Ratios_and_Identities",
+          17,
+          0.573
+        ],
+        [
+          "Trigonometric_Ratios_and_Identities",
+          7,
+          0.531
+        ],
+        [
+          "Trigonometric_Ratios_and_Identities",
+          13,
+          0.525
+        ]
+      ]
+    },
+    {
+      "id": 48,
+      "question": "Evaluate sin 200 degrees.",
+      "answerable": true,
+      "failed": false,
+      "hit_top3": false,
+      "faithfulness": 0.5,
+      "refused": false,
+      "answer": "The value of sin 200 degrees is -0.94, since sin 200 degrees = sin (180 + 20) degrees, and using the identity sin(A + B) = sin A cos B + cos A sin B (Source: Trigonometric_Ratios_and_Identities, Page 12), we can simplify it to sin 200 degrees = sin 180 degrees cos 20 degrees + cos 180 degrees sin 20 degrees. Since sin 180 degrees = 0 and cos 180 degrees = -1, we get sin 200 degrees = - sin 20 degrees. Using the value of sin 20 degrees from the context, which can be derived from sin 75 degrees = cos 15 degrees (Source: Trigonometric_Ratios_and_Identities, Page 12), and the relationship between sin and cos functions, we can calculate sin 20 degrees, and then sin 200 degrees = - sin 20 degrees = -0.94 (using the standard angle conversions and trigonometric identities).",
+      "retrieved": [
+        [
+          "Trigonometric_Ratios_and_Identities",
+          13,
+          0.539
+        ],
+        [
+          "Trigonometric_Ratios_and_Identities",
+          25,
+          0.518
+        ],
+        [
+          "Trigonometric_Ratios_and_Identities",
+          12,
+          0.516
+        ]
+      ]
+    },
+    {
+      "id": 49,
+      "question": "Evaluate tan 160 degrees.",
+      "answerable": true,
+      "failed": true,
+      "hit_top3": null,
+      "faithfulness": null,
+      "refused": null,
+      "answer": "[ERROR: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01ktrnnb1qe1k9daa9ybw84mx6` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 98506, Requested 2711. Please try again in 17m31.488s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}]",
+      "retrieved": []
+    }
+  ]
+}
