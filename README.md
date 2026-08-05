@@ -1,14 +1,3 @@
----
-title: JEE Math Doubt-Solver
-emoji: 📐
-colorFrom: blue
-colorTo: indigo
-sdk: streamlit
-sdk_version: "1.58.0"
-app_file: app.py
-pinned: false
----
-
 # JEE Math Doubt-Solver — RAG + Evaluation Harness
 
 A Retrieval-Augmented Generation system that answers JEE-level math doubts, grounded in real
@@ -83,7 +72,9 @@ questions, which needs a stronger embedding model or hybrid keyword+vector searc
 
 ## Stack
 
-Python · sentence-transformers · FAISS · Groq (Llama-3.3-70B) · Streamlit · pytesseract/PyMuPDF (OCR ingestion)
+Python · sentence-transformers (embedding model pulled from the Hugging Face model hub) · FAISS ·
+Groq (Llama-3.3-70B) · Streamlit · pytesseract/PyMuPDF (OCR ingestion) · deployed on Streamlit
+Community Cloud
 
 ## Running locally
 
@@ -92,6 +83,9 @@ pip install -r requirements.txt
 # create a .env with GROQ_API_KEY=your_key_here
 streamlit run app.py
 ```
+
+Deployed at Streamlit Community Cloud, which reads `GROQ_API_KEY` from its own Secrets manager
+(Settings → Secrets in the app dashboard) rather than a committed `.env` file.
 
 To re-run the evaluation harness: `python src/evaluate.py --fresh` (full re-run) or without `--fresh`
 to resume/fill in only failed questions from the last run.
