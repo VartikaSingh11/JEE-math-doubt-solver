@@ -21,15 +21,15 @@
 - **SKIPPED by decision (2026-07-08):** pulling 3 literal JD links was deemed not the bottleneck — prior market research (Naukri RAG/GenAI job counts, hiring-manager guidance) already confirms this stack matches real demand. Real per-JD keyword-matching happens later, per-application, via the "assembly line" workflow in `21_Using_Claude_In_The_Hunt.md` once this project ships and Vartika is actually applying with it.
 - Keywords this makes TRUE on the resume: RAG (Retrieval-Augmented Generation), Vector Databases, Embeddings, LLM Evaluation, Prompt Engineering, LLM-as-Judge.
 
-**The resume bullet being built toward (from `15_Project_Ideas_Bank.md`, fill numbers when real):**
-> Built and deployed a RAG question-answering system over [X] pages of JEE study material (chunking → FAISS vector search → cited LLM answers via Groq/Llama), refusing out-of-scope questions instead of hallucinating.
-> Designed a 40-case evaluation harness measuring retrieval hit-rate and answer faithfulness separately; improved faithfulness from [X]% to [Y]% through [N] logged chunking and prompt experiments.
-> Validated the LLM-as-judge scoring against hand-labeled answers ([agreement metric]) before trusting it.
+**The resume bullet being built toward (SHIPPED — real numbers as of 2026-08-06):**
+> Built and deployed a RAG question-answering system over 43 pages of JEE study material (OCR ingestion → section-aware chunking → FAISS vector search → cited LLM answers via Groq/Llama-3.3-70B), refusing out-of-scope questions instead of hallucinating.
+> Designed a 49-question hand-verified evaluation harness measuring retrieval hit-rate (63%) and answer faithfulness (73%) separately, plus 100% refusal accuracy on unanswerable questions; iterated through 5 prompt/retrieval versions, each change measured and logged, including catching and reverting a self-introduced regression before shipping.
+> Deployed live on Streamlit Community Cloud: [live URL].
 
 **Definition of DONE:**
-- [ ] Deployed at a public URL: Hugging Face Spaces (Streamlit)
-- [ ] Evaluation results table with ≥1 before→after comparison (e.g., naive vs. improved chunking)
-- [ ] README: problem → demo GIF → architecture diagram → results table → "what I'd do next"
+- [x] Deployed at a public URL: Streamlit Community Cloud (changed from the original Hugging Face Spaces plan — HF now requires a paid PRO plan for any Python-backed Space; Streamlit Community Cloud is free and purpose-built for this)
+- [x] Evaluation results table with ≥1 before→after comparison (naive vs. section chunking; v3 vs. v4 vs. v5 prompt cycle, see `log.md`)
+- [x] README: problem → architecture diagram → results table → "what I'd do next" (demo GIF still pending)
 - [ ] One LinkedIn post published about it (build-log format, `06_LinkedIn_Content_Plan.md`)
 - [ ] Vartika can answer all 6 project-defense questions (`09_Interview_Prep.md` §4) AND the Project 1 question bank in `19_Project_Workflows_Defense_Part1.md` out loud, unscripted
 
@@ -45,7 +45,7 @@
 
 **Corpus file-naming convention (mandatory, caught 2026-07-08):** the citation `source` field is derived directly from the PDF filename (`pdf_path.stem`), NOT from inside the OCR'd text — so the NOISE_PATTERNS branding-stripper in `ingest.py` never touches it. **Every PDF placed in `corpus/` must be renamed to a clean, topic-based name before ingestion** (e.g. `Quadratic_Equations.pdf`, not the original file's internal name) — original Allen source files often contain faculty nicknames/initials (e.g. "HR Sir, RN Sir") in their filenames, which is a real consent/privacy issue distinct from institutional branding (Vartika caught this — good catch, now a standing rule).
 
-**Stack (boring by default):** Python + PyPDF/pymupdf (ingestion) + sentence-transformers (embeddings, free/local) + FAISS (vector store) + Groq API (Llama, generation — Vartika already has hands-on Groq experience from the internship) + Streamlit (UI) + Hugging Face Spaces (deploy).
+**Stack (boring by default):** Python + PyPDF/pymupdf (ingestion) + sentence-transformers (embeddings, free/local, pulled from the Hugging Face model hub) + FAISS (vector store) + Groq API (Llama, generation — Vartika already has hands-on Groq experience from the internship) + Streamlit (UI) + **Streamlit Community Cloud** (deploy — changed 2026-08-06 from the original Hugging Face Spaces plan; HF Spaces now requires paid PRO for a Python-backed app, discovered live during deployment).
 **ONE allowed new tool this project:** FAISS (if Chroma was used in a prior project) — otherwise this stack is entirely tools Vartika has already touched. No second new tool without discussing against the resume bullet above.
 
 **Timebox:** 3–4 weeks, ~10–12 hrs/week (per the grind plan's Week 1–2 slot, or adjusted if running on the 90-day pace).
@@ -92,26 +92,26 @@
 
 ---
 
-## CURRENT STATUS — read this first if resuming cold (updated 2026-07-08)
+## CURRENT STATUS — read this first if resuming cold (updated 2026-08-06)
 
-**Phase: 1 (corpus + golden set), transitioning toward Phase 2 (ingestion).**
+**Phase: SHIPPED and live. Remaining work is promotion (demo GIF, LinkedIn post) and interview-defense prep, not engineering.**
 
-Done so far:
-- Corpus decided: Vartika's own Allen JEE notes, 2 topics uploaded and read (Quadratic Equation — 12pg, Trigonometric Ratios & Identities — 31pg).
-- Confirmed both PDFs have a corrupted text layer → OCR-based ingestion is mandatory (not text-layer extraction).
-- `src/ingest.py` written (PyMuPDF renders pages → images → Tesseract OCR → naive fixed-size chunks with overlap → saves to `evals/chunks.json`). `requirements.txt` written.
-- `evals/golden_set.json` started: 5 of ~40 golden questions written by Claude+Vartika together as a template (recall / conceptual / applied / should-refuse types demonstrated). Vartika continues writing the rest between sessions — nobody else can, this is her domain expertise.
-- Vartika has installed Tesseract OCR locally (UB-Mannheim build).
+Done:
+- Full pipeline built: OCR ingestion (Tesseract + PyMuPDF) → section-aware chunking (beat naive chunking, measured: 50%→64% hit-rate on the retrieval-only comparison) → FAISS retrieval (page-diversified, no duplicate-page slots) → Groq (Llama-3.3-70B) generation, prompt at v5 → Streamlit UI.
+- 49-question hand-verified golden set (grew from the original 40-question target). Final clean eval (0 failures): retrieval hit-rate 63%, faithfulness 73%, refusal accuracy 100%. Full experiment history — including a v4 regression that was caught by reading raw output and reverted before shipping, not just trusting the aggregate score — is in `log.md`.
+- **Deployed live** on Streamlit Community Cloud (not HF Spaces — that plan changed mid-deployment when it turned out HF now requires paid PRO for any Python-backed Space; discovered live, pivoted same session). Public GitHub repo pushed and connected. Confirmed working from a fresh/incognito browser session, not just Vartika's own logged-in one.
+- README written: problem, architecture diagram, results table, honest limitations, "what I'd do next." Sidebar in `app.py` shows live, current metrics (not stale numbers from an earlier eval run) and an honest limitations list, including the free-tier "app sleeps after inactivity" behavior.
 
-**Immediate next steps (in order):**
-1. Vartika places the 2 PDF files into `corpus/` folder (not yet done as of this log entry).
-2. Vartika runs `pip install -r requirements.txt` then `python src/ingest.py` in this project folder.
-3. Report back what the OCR output looks like (readable text vs. still garbled) — debug together if needed.
-4. Once chunks look clean: move to retrieval (FAISS + embeddings) — Phase 3 of the workflow in `19_Project_Workflows_Defense_Part1.md`.
-5. In parallel, anytime: Vartika keeps adding golden-set questions toward 40 total.
-
-**Not blocking anything, can happen anytime:** more topic PDFs added to corpus (20+ available); Groq API key into `.env`.
+**Not yet done:**
+1. Demo GIF (ScreenToGif or similar) into the README.
+2. LinkedIn build-log post (`06_LinkedIn_Content_Plan.md` format) — this is the actual trigger for "post it on LinkedIn," the original ask that restarted this project.
+3. Resume (`02_Resume_Vartika_Singh.html`) not yet updated with the live link + final numbers — was intentionally held until deployment + a trustworthy eval were both real, per the earlier honesty-first call.
+4. Self-run the full project-defense question bank (`19_Project_Workflows_Defense_Part1.md`) out loud before relying on this in an interview.
+5. Known, accepted, NOT blocking shipping: retrieval hit-rate plateaus ~62% (needs a stronger embedding model or hybrid search to move, not attempted); one class of question (two valid final values, e.g. ± roots) sometimes only reports one value.
 
 ## Session log (Claude appends a one-line entry here at the end of each work session)
 
-- 2026-07-08 — Charter created. Corpus and JD-links decisions resolved (see above). ingest.py + golden_set.json (5/40) written. Waiting on Vartika: PDFs into corpus/, then run ingestion.
+- 2026-07-08 — Charter created. Corpus and JD-links decisions resolved. ingest.py + golden_set.json (5/40) written. Waiting on Vartika: PDFs into corpus/, then run ingestion.
+- 2026-07-08 to 2026-07-22 — Full pipeline built (ingestion, retrieval, generation, eval harness), golden set grown to 45, section-chunking proven over naive, live bug found and fixed through 3 prompt iterations (v1→v3), Streamlit UI built and Playwright-tested.
+- 2026-07-31 to 2026-08-02 — Full re-eval cycle: found and fixed a retrieval duplicate-page issue, iterated prompt v4→v5 after v4 introduced then had a caught-and-fixed self-regression, golden set grew to 49. Final clean numbers: 63% hit-rate / 73% faithfulness / 100% refusal.
+- 2026-08-04 to 2026-08-06 — Deployed. Pivoted from planned HF Spaces to Streamlit Community Cloud mid-deployment (HF free tier no longer supports Python Spaces). Git installed, GitHub repo created and pushed, app connected and confirmed publicly reachable. README, CLAUDE.md, and app.py sidebar updated with real current numbers and the live URL.

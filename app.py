@@ -61,7 +61,10 @@ with st.sidebar:
         "- Citations are not yet independently verified against the cited page's "
         "actual content (a known, logged gap -- see project README).\n"
         "- On problems with two valid final values (e.g. squared conditions), the "
-        "model sometimes reports only one -- a known, accepted residual gap."
+        "model sometimes reports only one -- a known, accepted residual gap.\n"
+        "- Hosted on Streamlit Community Cloud's free tier: the app sleeps after a "
+        "period of inactivity, so the first visit after idle time shows a "
+        "'waking up' screen for ~30-60 seconds."
     )
 
 # --- Main ----------------------------------------------------------------

@@ -4,7 +4,12 @@ A Retrieval-Augmented Generation system that answers JEE-level math doubts, grou
 (OCR'd, handwritten-style) study notes, with page citations on every answer — and a measured
 evaluation harness instead of vibes-based claims about how well it works.
 
-**Live demo:** [link added once deployed]
+**Live demo:** https://jee-math-doubt-solver-hxhsjlu6nqdtfthhhcuksq.streamlit.app/
+
+Note: hosted on Streamlit Community Cloud's free tier, which puts an app to sleep after a period of
+no visitors — the first visit after idle time shows a "waking up" screen for ~30-60 seconds before
+the app loads. Not a bug, just the free-tier tradeoff; stated here rather than left for a visitor to
+wonder about.
 
 ## Problem
 
