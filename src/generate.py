@@ -33,7 +33,7 @@ from retrieval import retrieve
 
 load_dotenv(Path(__file__).parent.parent / ".env", override=True)
 
-MODEL = "llama-3.3-70b-versatile"
+MODEL = "openai/gpt-oss-120b"
 
 # --- PROMPT v5 (2026-07-31, Vartika's decision): v4 added a standalone "state
 # all multi-valued results" rule (old rule 3) after Q38 (p^2=25) dropped one of
