@@ -108,7 +108,7 @@ if ask and question.strip():
 
     if result:
         st.markdown("### Answer")
-        st.write(result["answer"])
+        st.markdown(result["answer"].replace("\\[", "$$").replace("\\]", "$$").replace("\\(", "$").replace("\\)", "$"))  # render LaTeX math
 
         if result["retrieved_chunks"]:
             with st.expander("📄 Sources retrieved for this answer"):
